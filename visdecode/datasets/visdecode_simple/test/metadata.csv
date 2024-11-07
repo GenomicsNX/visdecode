@@ -1,0 +1,101 @@
+file_name,text
+0.png,circle|quantitative|Mortgage Rates|quantitative|Inflation
+1.png,circle|quantitative|Software Updates|quantitative|Interquartile Range Of Daily Temperature Fluctuations Over A Year
+2.png,line|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Height
+3.png,bar|nominal|Speed|quantitative|Health Index
+4.png,line|temporal|Distance|quantitative|Housing Prices
+5.png,circle|quantitative|Job Vacancies|quantitative|Range
+6.png,circle|quantitative|Smoking Rate|quantitative|Distribution Frequency Of Employee Salaries In The Technology Industry
+7.png,bar|nominal|Mean Annual Temperature Deviation Corrected For Seasonal Variations|quantitative|Mortgage Rates
+8.png,circle|quantitative|Confidence Interval Of Proportion Estimates In Clinical Trials|quantitative|Birth Rate
+9.png,bar|nominal|Unemployment|quantitative|Normalized Mean Square Error Of Forecasted Versus Actual Sales
+10.png,line|temporal|Software Updates|quantitative|Fuel Consumption
+11.png,circle|quantitative|Inflation|quantitative|Average Monthly Rainfall (mm) in Coastal Areas by Region
+12.png,bar|nominal|Mean Age|quantitative|Participation Rate
+13.png,circle|quantitative|Probability Density Function for Reaction Time (seconds)|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+14.png,circle|quantitative|Crime Rate|quantitative|Return Rate
+15.png,circle|quantitative|Job Vacancies|quantitative|Manufacturing Output
+16.png,circle|quantitative|Percentage Change In Unemployment Rate Compared To Previous Year|quantitative|Satisfaction Score
+17.png,bar|nominal|Bootstrap Resampling Estimates Of Standard Error For Biomarker Data|quantitative|Pollution Level
+18.png,line|temporal|Satisfaction Score|quantitative|Change In Average Life Expectancy Over Centuries By Geographic Region
+19.png,circle|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies|quantitative|Cost
+20.png,circle|quantitative|Literacy Rate|quantitative|Kurtosis
+21.png,circle|quantitative|Risk Assessment For Investment Decisions Using Monte Carlo Simulations|quantitative|Median Income Across Ethnic Groups Over Five Decades
+22.png,bar|nominal|Normalized Residuals vs Predicted Values for Regression Model|quantitative|Average Daily Energy Consumption (kWh) by Appliance Type
+23.png,circle|quantitative|Pressure|quantitative|Social Media Activity
+24.png,line|temporal|Height|quantitative|Diet Quality
+25.png,line|temporal|Probability Density Function Of Age Distribution In Population Survey|quantitative|Variance Explained By The First Two Principal Components
+26.png,circle|quantitative|Skewness|quantitative|Mental Health
+27.png,circle|quantitative|Impact Estimates Of Air Quality On Public Health Expenses|quantitative|Crime Index
+28.png,circle|quantitative|Savings Rate|quantitative|Unemployment
+29.png,line|temporal|Clustering Results Of Patient Health Data By Treatment Outcomes|quantitative|Cost
+30.png,bar|nominal|Mean Annual Temperature Deviation Corrected For Seasonal Variations|quantitative|Return Rate
+31.png,bar|nominal|App Downloads|quantitative|Trend Analysis Of Annual Median House Prices In Metropolitan Areas
+32.png,bar|nominal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|Screen Time
+33.png,circle|quantitative|Bond Yield|quantitative|Impact Of Temperature Variability On Crop Yield Statistics
+34.png,bar|nominal|Temperature|quantitative|Accident Rate
+35.png,line|temporal|Percentage Change in Employment Rate by Industry Sector|quantitative|Distance
+36.png,line|temporal|Normalization Of Precipitation Data By Average Seasonal Levels|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+37.png,line|temporal|Pressure|quantitative|Impact Estimates Of Air Quality On Public Health Expenses
+38.png,bar|nominal|Mode Income|quantitative|Customer Reviews
+39.png,bar|nominal|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data|quantitative|Median Age
+40.png,line|temporal|Median Income|quantitative|Growth Rate
+41.png,line|temporal|Age|quantitative|Impact Of Temperature Variability On Crop Yield Statistics
+42.png,bar|nominal|Mobile Phone Usage|quantitative|Sleep Duration
+43.png,bar|nominal|Producer Price Index|quantitative|Crime Rate
+44.png,line|temporal|Sales|quantitative|Variance
+45.png,bar|nominal|Change In Average Life Expectancy Over Centuries By Geographic Region|quantitative|Variance Explained By The First Two Principal Components
+46.png,circle|quantitative|Revenue|quantitative|Hospital Admissions
+47.png,line|temporal|Revenue|quantitative|Participation Rate
+48.png,circle|quantitative|Fuel Consumption|quantitative|Impact Estimates Of Air Quality On Public Health Expenses
+49.png,line|temporal|Sleep Duration|quantitative|Customer Reviews
+50.png,circle|quantitative|Normalization Of Precipitation Data By Average Seasonal Levels|quantitative|Mean Age
+51.png,bar|nominal|Median Income|quantitative|Screen Time
+52.png,line|temporal|Skewness|quantitative|Screen Time
+53.png,line|temporal|Investment|quantitative|Screen Time
+54.png,circle|quantitative|Labor Force|quantitative|Percentage Change In Unemployment Rate Compared To Previous Year
+55.png,line|temporal|Quantile Regression Estimates Of Salary By Experience Level|quantitative|Expenses
+56.png,line|temporal|Alcohol Consumption|quantitative|Stock Price
+57.png,bar|nominal|Revenue|quantitative|Vehicle Miles
+58.png,bar|nominal|Average Monthly Rainfall (mm) in Coastal Areas by Region|quantitative|Participation Rate
+59.png,bar|nominal|Dividends|quantitative|Life Expectancy
+60.png,bar|nominal|Fuel Consumption|quantitative|Factors Affecting Student Performance In Standardized Testing
+61.png,circle|quantitative|Interquartile Range Of Daily Temperature Fluctuations Over A Year|quantitative|Hospital Admissions
+62.png,line|temporal|Unemployment|quantitative|Life Expectancy
+63.png,circle|quantitative|Probability Density Function Of Age Distribution In Population Survey|quantitative|Median Household Income $ by Urbanization Level and Region
+64.png,line|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|Health Index
+65.png,line|temporal|Mean Income|quantitative|Temporal Trend Analysis Of Gross Domestic Product Over Thirty Years
+66.png,line|temporal|Inflation|quantitative|Housing Prices
+67.png,bar|nominal|Mortgage Rates|quantitative|Manufacturing Output
+68.png,bar|nominal|Import Volume|quantitative|Impact Factor Of Scientific Journals Over Five Years Of Publication
+69.png,circle|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age|quantitative|Hospital Admissions
+70.png,circle|quantitative|Weight|quantitative|Change In Average Life Expectancy Over Centuries By Geographic Region
+71.png,circle|quantitative|Percentage Change In Unemployment Rate Compared To Previous Year|quantitative|Coefficient Of Variation In Agricultural Yields Over Different Seasons
+72.png,circle|quantitative|Rate Of Change In Consumer Price Index Over Quarterly Business Reports|quantitative|Satisfaction Score
+73.png,bar|nominal|Simulation Of Monetary Policy Changes On Economic Growth Rates|quantitative|Impact Factor Of Scientific Journals Over Five Years Of Publication
+74.png,bar|nominal|Interquartile Range|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+75.png,bar|nominal|Sales|quantitative|Pressure
+76.png,bar|nominal|Disease Prevalence|quantitative|Growth Rate
+77.png,circle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Effectiveness Of Intervention Programs On Youth Crime Rates
+78.png,line|temporal|Median Income Across Ethnic Groups Over Five Decades|quantitative|Pressure
+79.png,bar|nominal|Variance|quantitative|Mode Age
+80.png,bar|nominal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|Death Rate
+81.png,circle|quantitative|Mean Age|quantitative|Normalized Mean Square Error Of Forecasted Versus Actual Sales
+82.png,circle|quantitative|Internet Usage|quantitative|Inflation
+83.png,bar|nominal|Satisfaction Score|quantitative|Percentage Change in Employment Rate by Industry Sector
+84.png,line|temporal|Wholesale Price|quantitative|Mode Income
+85.png,bar|nominal|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Income
+86.png,bar|nominal|Outlier Detection Methods In Sales Data For Anomalies|quantitative|Mode Income
+87.png,bar|nominal|Skewness|quantitative|Normalized Residuals vs Predicted Values for Regression Model
+88.png,circle|quantitative|Drug Use|quantitative|Impact Estimates Of Air Quality On Public Health Expenses
+89.png,bar|nominal|Distributions Of Voter Turnout Among Various Income Brackets|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+90.png,bar|nominal|Loan Amount|quantitative|Job Vacancies
+91.png,line|temporal|Variance|quantitative|Exponential Moving Average Of Daily Crude Oil Prices Over 12 Months
+92.png,circle|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+93.png,line|temporal|Time|quantitative|Impact Of Temperature Variability On Crop Yield Statistics
+94.png,line|temporal|Fuel Consumption|quantitative|Percentage Change in Employment Rate by Industry Sector
+95.png,circle|quantitative|Estimation Of Market Share For New Products Using Consumer Surveys|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+96.png,line|temporal|Mean Income|quantitative|Mobile Phone Usage
+97.png,circle|quantitative|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Internet Usage
+98.png,line|temporal|Income|quantitative|Sleep Duration
+99.png,circle|quantitative|Alcohol Consumption|quantitative|Disease Prevalence

@@ -1,0 +1,21 @@
+file_name,text
+0.png,circle|quantitative|Mode Age|quantitative|Alcohol Consumption
+1.png,bar|nominal|Water Usage|quantitative|CO2 Emissions
+2.png,line|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+3.png,circle|quantitative|Growth Rate|quantitative|GDP
+4.png,line|temporal|Mental Health|quantitative|Import Volume
+5.png,circle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+6.png,bar|nominal|Mortality Rate|quantitative|Poverty Rate
+7.png,line|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+8.png,line|temporal|Manufacturing Output|quantitative|Fuel Consumption
+9.png,circle|quantitative|Literacy Rate|quantitative|Export Volume
+10.png,bar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+11.png,bar|nominal|Range|quantitative|Participation Rate
+12.png,bar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+13.png,bar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+14.png,circle|quantitative|Height|quantitative|Speed
+15.png,circle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+16.png,line|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+17.png,line|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+18.png,line|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+19.png,circle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age

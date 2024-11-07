@@ -1,0 +1,41 @@
+Epoch: [1/20], Train loss: 2.2996
+Epoch: [1/20], Valid loss: 2.2224, Valid accuracy: 0.1100
+Saving the best model at 0 epochs!
+Epoch: [2/20], Train loss: 2.2209
+Epoch: [2/20], Valid loss: 2.2367, Valid accuracy: 0.1100
+Epoch: [3/20], Train loss: 2.1493
+Epoch: [3/20], Valid loss: 2.2381, Valid accuracy: 0.1600
+Epoch: [4/20], Train loss: 2.0763
+Epoch: [4/20], Valid loss: 2.2390, Valid accuracy: 0.1700
+Epoch: [5/20], Train loss: 1.9937
+Epoch: [5/20], Valid loss: 2.2587, Valid accuracy: 0.1500
+Epoch: [6/20], Train loss: 1.9165
+Epoch: [6/20], Valid loss: 2.2451, Valid accuracy: 0.1900
+Epoch: [7/20], Train loss: 1.8308
+Epoch: [7/20], Valid loss: 2.2557, Valid accuracy: 0.1900
+Epoch: [8/20], Train loss: 1.7503
+Epoch: [8/20], Valid loss: 2.2629, Valid accuracy: 0.2100
+Epoch: [9/20], Train loss: 1.6725
+Epoch: [9/20], Valid loss: 2.2693, Valid accuracy: 0.1800
+Epoch: [10/20], Train loss: 1.5956
+Epoch: [10/20], Valid loss: 2.2943, Valid accuracy: 0.1600
+Epoch: [11/20], Train loss: 1.5179
+Epoch: [11/20], Valid loss: 2.3003, Valid accuracy: 0.1700
+Epoch: [12/20], Train loss: 1.4462
+Epoch: [12/20], Valid loss: 2.2863, Valid accuracy: 0.2300
+Epoch: [13/20], Train loss: 1.3765
+Epoch: [13/20], Valid loss: 2.3136, Valid accuracy: 0.1900
+Epoch: [14/20], Train loss: 1.3078
+Epoch: [14/20], Valid loss: 2.3534, Valid accuracy: 0.1400
+Epoch: [15/20], Train loss: 1.2410
+Epoch: [15/20], Valid loss: 2.3554, Valid accuracy: 0.2000
+Epoch: [16/20], Train loss: 1.1767
+Epoch: [16/20], Valid loss: 2.3555, Valid accuracy: 0.2100
+Epoch: [17/20], Train loss: 1.1180
+Epoch: [17/20], Valid loss: 2.3663, Valid accuracy: 0.2100
+Epoch: [18/20], Train loss: 1.0585
+Epoch: [18/20], Valid loss: 2.4070, Valid accuracy: 0.1900
+Epoch: [19/20], Train loss: 1.0022
+Epoch: [19/20], Valid loss: 2.4395, Valid accuracy: 0.1500
+Epoch: [20/20], Train loss: 0.9523
+Epoch: [20/20], Valid loss: 2.4445, Valid accuracy: 0.1900

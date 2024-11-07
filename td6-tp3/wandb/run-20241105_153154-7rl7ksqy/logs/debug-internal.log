@@ -1,0 +1,273 @@
+2024-11-05 15:31:54,172 INFO    StreamThr :2593996 [internal.py:wandb_internal():86] W&B internal server running at pid: 2593996, started at: 2024-11-05 15:31:54.171054
+2024-11-05 15:31:54,176 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status
+2024-11-05 15:31:54,181 INFO    WriterThread:2593996 [datastore.py:open_for_write():87] open: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/run-7rl7ksqy.wandb
+2024-11-05 15:31:54,182 DEBUG   SenderThread:2593996 [sender.py:send():382] send: header
+2024-11-05 15:31:54,191 DEBUG   SenderThread:2593996 [sender.py:send():382] send: run
+2024-11-05 15:31:54,648 INFO    SenderThread:2593996 [dir_watcher.py:__init__():211] watching files in: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files
+2024-11-05 15:31:54,649 INFO    SenderThread:2593996 [sender.py:_start_run_threads():1136] run started: 7rl7ksqy with start time 1730831514.169215
+2024-11-05 15:31:54,663 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: check_version
+2024-11-05 15:31:54,663 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: check_version
+2024-11-05 15:31:54,723 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: run_start
+2024-11-05 15:31:54,724 DEBUG   HandlerThread:2593996 [system_info.py:__init__():27] System info init
+2024-11-05 15:31:54,724 DEBUG   HandlerThread:2593996 [system_info.py:__init__():42] System info init done
+2024-11-05 15:31:54,725 INFO    HandlerThread:2593996 [system_monitor.py:start():194] Starting system monitor
+2024-11-05 15:31:54,725 INFO    SystemMonitor:2593996 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-11-05 15:31:54,726 INFO    HandlerThread:2593996 [system_monitor.py:probe():214] Collecting system info
+2024-11-05 15:31:54,728 INFO    SystemMonitor:2593996 [interfaces.py:start():190] Started cpu monitoring
+2024-11-05 15:31:54,729 INFO    SystemMonitor:2593996 [interfaces.py:start():190] Started disk monitoring
+2024-11-05 15:31:54,730 INFO    SystemMonitor:2593996 [interfaces.py:start():190] Started gpu monitoring
+2024-11-05 15:31:54,733 INFO    SystemMonitor:2593996 [interfaces.py:start():190] Started memory monitoring
+2024-11-05 15:31:54,736 INFO    SystemMonitor:2593996 [interfaces.py:start():190] Started network monitoring
+2024-11-05 15:31:54,779 DEBUG   HandlerThread:2593996 [system_info.py:probe():151] Probing system
+2024-11-05 15:31:54,781 DEBUG   HandlerThread:2593996 [system_info.py:_probe_git():136] Probing git
+2024-11-05 15:31:54,793 DEBUG   HandlerThread:2593996 [system_info.py:_probe_git():144] Probing git done
+2024-11-05 15:31:54,793 DEBUG   HandlerThread:2593996 [system_info.py:probe():199] Probing system done
+2024-11-05 15:31:54,793 DEBUG   HandlerThread:2593996 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-122-generic-x86_64-with-glibc2.35', 'python': '3.12.2', 'heartbeatAt': '2024-11-05T18:31:54.780100', 'startedAt': '2024-11-05T18:31:54.159714', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com:LIA-DiTella/visdecode.git', 'commit': '49bed1001f398969100cf4151d34e330a318f841'}, 'email': 'martinsinnona@outlook.es', 'root': '/mnt/disk2/msinnona/visdecode', 'host': 'lab04', 'username': 'MSinnona', 'executable': '/mnt/disk2/msinnona/miniconda3/envs/martin/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2073.293, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 818.064, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}, {'current': 2100.0, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 491.58570861816406, 'used': 452.9949417114258}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 251.21967315673828}}
+2024-11-05 15:31:54,793 INFO    HandlerThread:2593996 [system_monitor.py:probe():224] Finished collecting system info
+2024-11-05 15:31:54,793 INFO    HandlerThread:2593996 [system_monitor.py:probe():227] Publishing system info
+2024-11-05 15:31:54,793 DEBUG   HandlerThread:2593996 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-11-05 15:31:55,651 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/conda-environment.yaml
+2024-11-05 15:31:57,909 DEBUG   HandlerThread:2593996 [system_info.py:_save_conda():220] Saving conda packages done
+2024-11-05 15:31:57,911 INFO    HandlerThread:2593996 [system_monitor.py:probe():229] Finished publishing system info
+2024-11-05 15:31:57,912 DEBUG   SenderThread:2593996 [sender.py:send():382] send: files
+2024-11-05 15:31:57,913 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-11-05 15:31:57,932 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: python_packages
+2024-11-05 15:31:57,933 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: python_packages
+2024-11-05 15:31:57,935 DEBUG   SenderThread:2593996 [sender.py:send():382] send: telemetry
+2024-11-05 15:31:58,336 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-05 15:31:58,337 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: stop_status
+2024-11-05 15:31:58,635 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:31:58,650 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/conda-environment.yaml
+2024-11-05 15:31:58,651 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/requirements.txt
+2024-11-05 15:31:58,651 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-metadata.json
+2024-11-05 15:31:58,689 INFO    wandb-upload_0:2593996 [upload_job.py:push():131] Uploaded file /tmp/tmp_nsnpq2awandb/3cjp5oyg-wandb-metadata.json
+2024-11-05 15:31:59,694 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:04,695 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:05,636 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:05,638 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:05,638 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:05,641 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:05,654 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:05,654 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:07,655 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:10,643 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:12,978 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:32:12,978 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-05 15:32:12,979 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: stop_status
+2024-11-05 15:32:13,197 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:13,254 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:13,255 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:13,256 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:13,658 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:13,659 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:15,659 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:16,257 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:20,686 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:20,687 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:20,687 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:20,690 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:21,662 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:21,663 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:21,691 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:26,695 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:27,665 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/config.yaml
+2024-11-05 15:32:27,953 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:27,955 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:27,956 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:27,959 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:27,962 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-05 15:32:27,962 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: stop_status
+2024-11-05 15:32:28,113 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:32:28,666 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:29,666 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:32,242 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:35,087 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:35,088 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:35,088 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:35,089 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:35,669 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:35,670 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:37,671 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:38,090 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:42,120 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:42,121 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:42,121 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:42,122 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:42,673 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:43,123 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:43,335 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-05 15:32:43,335 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: stop_status
+2024-11-05 15:32:43,377 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:32:43,674 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:48,280 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:49,677 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:49,707 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:49,708 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:49,709 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:49,709 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:50,677 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:51,678 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:53,710 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:54,736 DEBUG   SystemMonitor:2593996 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-11-05 15:32:54,740 DEBUG   SenderThread:2593996 [sender.py:send():382] send: stats
+2024-11-05 15:32:56,897 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:32:56,898 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:32:56,899 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:32:56,899 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:32:57,681 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:32:57,682 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:32:58,174 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-05 15:32:58,174 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: stop_status
+2024-11-05 15:32:58,188 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:32:59,443 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:32:59,682 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:33:04,500 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:33:04,501 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:33:04,501 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:33:04,501 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:33:04,504 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:33:04,685 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:33:05,686 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:33:09,505 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:33:11,800 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-05 15:33:11,803 DEBUG   SenderThread:2593996 [sender.py:send():382] send: history
+2024-11-05 15:33:11,803 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: summary_record
+2024-11-05 15:33:11,803 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:33:11,803 DEBUG   SenderThread:2593996 [sender.py:send():382] send: telemetry
+2024-11-05 15:33:11,803 DEBUG   SenderThread:2593996 [sender.py:send():382] send: exit
+2024-11-05 15:33:11,803 INFO    SenderThread:2593996 [sender.py:send_exit():589] handling exit code: 0
+2024-11-05 15:33:11,804 INFO    SenderThread:2593996 [sender.py:send_exit():591] handling runtime: 77
+2024-11-05 15:33:11,804 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:33:11,804 INFO    SenderThread:2593996 [sender.py:send_exit():597] send defer
+2024-11-05 15:33:11,804 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:11,805 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 0
+2024-11-05 15:33:11,805 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:11,805 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-11-05 15:33:11,805 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 1
+2024-11-05 15:33:11,805 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:11,805 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 1
+2024-11-05 15:33:11,806 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:11,806 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-11-05 15:33:11,806 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 2
+2024-11-05 15:33:11,806 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:11,806 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 2
+2024-11-05 15:33:11,806 INFO    HandlerThread:2593996 [system_monitor.py:finish():203] Stopping system monitor
+2024-11-05 15:33:11,806 DEBUG   SystemMonitor:2593996 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-11-05 15:33:11,806 DEBUG   SystemMonitor:2593996 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-11-05 15:33:11,809 INFO    HandlerThread:2593996 [interfaces.py:finish():202] Joined cpu monitor
+2024-11-05 15:33:11,809 INFO    HandlerThread:2593996 [interfaces.py:finish():202] Joined disk monitor
+2024-11-05 15:33:12,057 INFO    HandlerThread:2593996 [interfaces.py:finish():202] Joined gpu monitor
+2024-11-05 15:33:12,057 INFO    HandlerThread:2593996 [interfaces.py:finish():202] Joined memory monitor
+2024-11-05 15:33:12,057 INFO    HandlerThread:2593996 [interfaces.py:finish():202] Joined network monitor
+2024-11-05 15:33:12,058 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,059 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-11-05 15:33:12,059 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 3
+2024-11-05 15:33:12,059 DEBUG   SenderThread:2593996 [sender.py:send():382] send: stats
+2024-11-05 15:33:12,060 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,061 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 3
+2024-11-05 15:33:12,061 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,061 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-11-05 15:33:12,062 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 4
+2024-11-05 15:33:12,062 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,062 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 4
+2024-11-05 15:33:12,063 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,063 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-11-05 15:33:12,063 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 5
+2024-11-05 15:33:12,063 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,063 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 5
+2024-11-05 15:33:12,064 DEBUG   SenderThread:2593996 [sender.py:send():382] send: summary
+2024-11-05 15:33:12,065 INFO    SenderThread:2593996 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-11-05 15:33:12,066 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,066 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-11-05 15:33:12,066 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 6
+2024-11-05 15:33:12,066 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,066 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 6
+2024-11-05 15:33:12,067 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,067 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-11-05 15:33:12,072 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: status_report
+2024-11-05 15:33:12,285 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 7
+2024-11-05 15:33:12,286 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,286 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 7
+2024-11-05 15:33:12,286 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,287 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-11-05 15:33:12,689 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:33:12,689 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/config.yaml
+2024-11-05 15:33:12,757 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 8
+2024-11-05 15:33:12,758 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,758 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 8
+2024-11-05 15:33:12,759 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,759 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-11-05 15:33:12,759 INFO    SenderThread:2593996 [job_builder.py:build():296] Attempting to build job artifact
+2024-11-05 15:33:12,760 INFO    SenderThread:2593996 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-11-05 15:33:12,760 INFO    SenderThread:2593996 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-11-05 15:33:12,760 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 9
+2024-11-05 15:33:12,760 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:12,761 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 9
+2024-11-05 15:33:12,761 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:12,761 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-11-05 15:33:12,761 INFO    SenderThread:2593996 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-11-05 15:33:12,802 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-05 15:33:13,690 INFO    Thread-73 :2593996 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:33:13,691 INFO    SenderThread:2593996 [dir_watcher.py:finish():388] scan: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files
+2024-11-05 15:33:13,691 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log output.log
+2024-11-05 15:33:13,692 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json wandb-summary.json
+2024-11-05 15:33:13,692 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/config.yaml config.yaml
+2024-11-05 15:33:13,692 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/conda-environment.yaml conda-environment.yaml
+2024-11-05 15:33:13,692 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/requirements.txt requirements.txt
+2024-11-05 15:33:13,693 INFO    SenderThread:2593996 [dir_watcher.py:finish():402] scan save: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-metadata.json wandb-metadata.json
+2024-11-05 15:33:13,693 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 10
+2024-11-05 15:33:13,693 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: poll_exit
+2024-11-05 15:33:13,694 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:13,694 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 10
+2024-11-05 15:33:13,704 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:13,704 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-11-05 15:33:13,705 INFO    SenderThread:2593996 [file_pusher.py:finish():172] shutting down file pusher
+2024-11-05 15:33:13,803 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-05 15:33:13,804 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: poll_exit
+2024-11-05 15:33:14,274 INFO    wandb-upload_1:2593996 [upload_job.py:push():131] Uploaded file /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/output.log
+2024-11-05 15:33:14,321 INFO    wandb-upload_4:2593996 [upload_job.py:push():131] Uploaded file /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/requirements.txt
+2024-11-05 15:33:14,376 INFO    wandb-upload_2:2593996 [upload_job.py:push():131] Uploaded file /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/config.yaml
+2024-11-05 15:33:14,377 INFO    wandb-upload_3:2593996 [upload_job.py:push():131] Uploaded file /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/conda-environment.yaml
+2024-11-05 15:33:14,391 INFO    wandb-upload_0:2593996 [upload_job.py:push():131] Uploaded file /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/files/wandb-summary.json
+2024-11-05 15:33:14,592 INFO    Thread-72 (_thread_body):2593996 [sender.py:transition_state():617] send defer: 11
+2024-11-05 15:33:14,593 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:14,593 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 11
+2024-11-05 15:33:14,594 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:14,594 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-11-05 15:33:14,594 INFO    SenderThread:2593996 [file_pusher.py:join():178] waiting for file pusher
+2024-11-05 15:33:14,595 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 12
+2024-11-05 15:33:14,595 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:14,596 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 12
+2024-11-05 15:33:14,596 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:14,596 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-11-05 15:33:14,596 INFO    SenderThread:2593996 [file_stream.py:finish():595] file stream finish called
+2024-11-05 15:33:14,809 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-05 15:33:15,338 INFO    SenderThread:2593996 [file_stream.py:finish():599] file stream finish is done
+2024-11-05 15:33:15,338 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 13
+2024-11-05 15:33:15,338 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: poll_exit
+2024-11-05 15:33:15,339 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:15,340 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 13
+2024-11-05 15:33:15,340 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:15,341 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-11-05 15:33:15,341 INFO    SenderThread:2593996 [sender.py:transition_state():617] send defer: 14
+2024-11-05 15:33:15,341 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: defer
+2024-11-05 15:33:15,342 INFO    HandlerThread:2593996 [handler.py:handle_request_defer():172] handle defer: 14
+2024-11-05 15:33:15,342 DEBUG   SenderThread:2593996 [sender.py:send():382] send: final
+2024-11-05 15:33:15,343 DEBUG   SenderThread:2593996 [sender.py:send():382] send: footer
+2024-11-05 15:33:15,343 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: defer
+2024-11-05 15:33:15,343 INFO    SenderThread:2593996 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-11-05 15:33:15,345 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-05 15:33:15,345 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: poll_exit
+2024-11-05 15:33:15,349 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-05 15:33:15,350 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: server_info
+2024-11-05 15:33:15,351 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: server_info
+2024-11-05 15:33:15,394 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: get_summary
+2024-11-05 15:33:15,394 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: sampled_history
+2024-11-05 15:33:15,395 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: job_info
+2024-11-05 15:33:15,538 DEBUG   SenderThread:2593996 [sender.py:send_request():409] send_request: job_info
+2024-11-05 15:33:15,540 DEBUG   HandlerThread:2593996 [handler.py:handle_request():146] handle_request: shutdown
+2024-11-05 15:33:15,541 INFO    HandlerThread:2593996 [handler.py:finish():869] shutting down handler
+2024-11-05 15:33:16,396 INFO    WriterThread:2593996 [datastore.py:close():296] close: /mnt/disk2/msinnona/visdecode/td6-tp3/wandb/run-20241105_153154-7rl7ksqy/run-7rl7ksqy.wandb
+2024-11-05 15:33:16,539 INFO    SenderThread:2593996 [sender.py:finish():1572] shutting down sender
+2024-11-05 15:33:16,539 INFO    SenderThread:2593996 [file_pusher.py:finish():172] shutting down file pusher
+2024-11-05 15:33:16,539 INFO    SenderThread:2593996 [file_pusher.py:join():178] waiting for file pusher
