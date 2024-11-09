@@ -74,7 +74,7 @@ def multiclass_confusion_matrix(samples, classes):
 
     return confusion_mat
 
-def f1_score(multiclass_confusion_mat, classes):
+def f1_score(multiclass_confusion_mat, classes, average = False):
     
     n = multiclass_confusion_mat.shape[0]
     scores = {}
@@ -93,13 +93,17 @@ def f1_score(multiclass_confusion_mat, classes):
         for row in range(n):
             if i != row: FP += multiclass_confusion_mat[row, i]
 
-        precision   = np.round(TP / (TP + FP), 2) if TP + FP > 0 else 0 
-        recall      = np.round(TP / (TP + FN), 2) if TP + FN > 0 else 0
+        f1 = None
 
-        f1 = np.round(2 * (precision * recall) / (precision + recall), 2) if precision + recall > 0 else 0
+        if TP + FN + FP > 0:
+            precision   = np.round(TP / (TP + FP), 2) if TP + FP > 0 else 0 
+            recall      = np.round(TP / (TP + FN), 2) if TP + FN > 0 else 0
+
+            f1 = np.round(2 * (precision * recall) / (precision + recall), 2) if precision + recall > 0 else 0
 
         scores[classes[i]] = f1
 
+    if average: return dict_mean(scores)
     return scores
 
 def re_score(samples):
@@ -175,7 +179,7 @@ def compute_metrics(vegas, gt_vegas, average = False):
     marks = input["marks"]
 
     marks_confusion_mat = multiclass_confusion_matrix(marks, mark_classes)
-    mark_score = f1_score(marks_confusion_mat, mark_classes)
+    mark_score = f1_score(marks_confusion_mat, mark_classes, average)
 
     # var types score
 
@@ -185,6 +189,9 @@ def compute_metrics(vegas, gt_vegas, average = False):
     y_types = input["y"]["types"]
 
     x_types_confusion_mat = multiclass_confusion_matrix(x_types, var_types_classes)
+
+    print(x_types_confusion_mat)
+
     y_types_confusion_mat = multiclass_confusion_matrix(y_types, var_types_classes)
 
     x_type_score = f1_score(x_types_confusion_mat, var_types_classes)
@@ -205,12 +212,12 @@ def compute_metrics(vegas, gt_vegas, average = False):
 
     if average:
 
-        mark_avg_score = np.round(dict_mean(mark_score), 2)
+        #mark_avg_score = np.round(dict_mean(mark_score), 2)
 
         var_type_avg_score = np.round( dict_mean({"x_type": dict_mean(x_type_score), "y_type": dict_mean(y_type_score)}), 2)
         var_name_avg_score = np.round( np.mean([x_name_score, y_name_score]), 2)
 
-        return {"mark_type": mark_avg_score, "var_type": var_type_avg_score, "var_name": var_name_avg_score}
+        return {"mark_type": mark_score, "var_type": var_type_avg_score, "var_name": var_name_avg_score}
 
     return {"mark_type": mark_score, "x_type": x_type_score, "y_type": y_type_score, "x_name": x_name_score, "y_name": y_name_score}
 
@@ -271,7 +278,7 @@ def text_to_vega(texts, ret_status = False, vega_structure = True):
     
     return vegas
 
-def eval(texts, gt_texts, vega_structure):
+def eval(texts, gt_texts, vega_structure, raw_metrics = False):
 
     vegas, status, struct_error = text_to_vega(texts, ret_status = True, vega_structure = vega_structure)
 
@@ -305,9 +312,10 @@ def eval(texts, gt_texts, vega_structure):
     print(magenta("|"), bold(cyan("MARK-TYPE")), ":", mark_type_score, magenta("|"), bold(cyan("X-TYPE")), ":", x_type_score, magenta("|"), bold(cyan("Y-TYPE")), ":", y_type_score, magenta("|"), bold(cyan("X-NAME")), ":", x_name_score, magenta("|"), bold(cyan("Y-NAME")), ":", y_name_score, magenta("|"), bold(cyan("STRUCT-ERROR")), ":", struct_error, magenta("|"))
     print(bold(magenta("------------------------------------------------------------------------------------------------------------------------\n")))
 
+    if raw_metrics: return metrics
     return {"mark_type": mark_type_score, "x_type": x_type_score, "y_type": y_type_score, "x_name": x_name_score, "y_name": y_name_score, "struct_error": struct_error}
 
-def eval_model(processor, model, dataset, device, vega_structure):
+def eval_model(processor, model, dataset, device, vega_structure, raw_metrics = False):
 
     with torch.no_grad():
 
@@ -316,4 +324,4 @@ def eval_model(processor, model, dataset, device, vega_structure):
         texts = generate(processor, model, dataset[:]["image"], device)
         gt_texts = dataset[:]["text"]
 
-        return eval(texts, gt_texts, vega_structure)
+        return eval(texts, gt_texts, vega_structure, raw_metrics)
