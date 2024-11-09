@@ -4926,3 +4926,5 @@
 2024-11-09 20:39:49,308 DEBUG   HandlerThread:1224741 [handler.py:handle_request():146] handle_request: stop_status
 2024-11-09 20:39:49,309 DEBUG   SenderThread:1224741 [sender.py:send_request():409] send_request: stop_status
 2024-11-09 20:39:49,573 DEBUG   HandlerThread:1224741 [handler.py:handle_request():146] handle_request: status_report
+2024-11-09 20:39:54,574 DEBUG   HandlerThread:1224741 [handler.py:handle_request():146] handle_request: status_report
+2024-11-09 20:39:56,209 DEBUG   SenderThread:1224741 [sender.py:send():382] send: stats
