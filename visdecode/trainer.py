@@ -10,14 +10,17 @@ from visdecode import *
 from PIL import Image
 from torchvision import transforms
 from tqdm.auto import tqdm
+import gc
+DEVICE_ID = 1
 
-MODEL = "plotqa_simple_3"
+MODEL = "plotqa_simple_5_2k"
 TRAIN_MODEL = "matcha-base"
+COMMENT = "train set de 2k"
 
 UPLOAD_METRICS = True
 
-LR = 1e-6
-EPOCHS = 100
+LR = 1e-5
+EPOCHS = 50
 EVAL_STEP = 5
 
 MAX_LENGTH = 200
@@ -26,22 +29,21 @@ BATCH_SIZE = 16
 
 MAX_SCORE = 0.6
 UPLOAD_METRICS = UPLOAD_METRICS and EPOCHS != -1
-
 torch.manual_seed(42)
 torch.cuda.manual_seed(42)
 
-device_id = 1
-device = "cuda:" + str(device_id) if torch.cuda.is_available() else "cpu"
-torch.cuda.set_device(device_id)
+
+device = "cuda:" + str(DEVICE_ID) if torch.cuda.is_available() else "cpu"
+torch.cuda.set_device(DEVICE_ID)
 wandb.login(key = "451637d95c22df4568c6f5a268e37071bc14547b")
 login(token = "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")
 
-dataset_train = load_dataset("martinsinnona/plotqa_simple", split = "train")
+dataset_train = load_dataset("martinsinnona/plotqa_simple_2k", split = "train")
 
 dataset_val1 = load_dataset("martinsinnona/visdecode_simple", split = "validation")
-dataset_val2 = load_dataset("martinsinnona/plotqa_simple", split = "validation")
+dataset_val2 = load_dataset("martinsinnona/plotqa_simple_2k", split = "validation")
 
-dataset_test1 = load_dataset("martinsinnona/plotqa_simple", split = "test")
+dataset_test1 = load_dataset("martinsinnona/plotqa_simple_2k", split = "test")
 dataset_test2 = load_dataset("martinsinnona/visdecode_web", split = "test")
 
 print(bold(green("\n[Train] :")), len(dataset_train))
@@ -56,7 +58,6 @@ owner = "martinsinnona" if EPOCHS == -1 else "google"
 
 print("> Using model: ", bold(red(model_name)))
 processor, model = visdecode.load_model(owner, model_name, device)
-
 class ImageCaptioningDataset(Dataset):
 
     def __init__(self, dataset, processor, transform = None):
@@ -118,15 +119,14 @@ model.to(device)
 if UPLOAD_METRICS:
 
     wandb.init(
-        project="visdecode",
-        name=MODEL, 
-        entity="martinsinnona", 
+        project = "visdecode",
+        name = MODEL, 
+        entity = "martinsinnona", 
         config = {"learning_rate": LR,
                   "epochs": EPOCHS,
                   "max_length": MAX_LENGTH,
                   "batch_size": BATCH_SIZE,
-                  "comment": "Bajé LR"
-                  }
+                  "comment": COMMENT}
     )
 
 losses = []
@@ -155,8 +155,13 @@ for epoch in range(EPOCHS + 1):
         optimizer.step()
         optimizer.zero_grad()
 
+        torch.cuda.empty_cache()  
+        gc.collect() 
+
     print(bold(cyan("Epoch :")), epoch, bold(green(" | Loss :")), loss.item())
-    losses.append(loss.cpu().detach().numpy().item())
+    if UPLOAD_METRICS: wandb.log({"loss":  loss.item()})
+
+    losses.append(loss.item())
 
     # -------------------------------------
 
@@ -188,8 +193,7 @@ for epoch in range(EPOCHS + 1):
                     "y_name_val_2":         metrics_val2["y_name"], 
                     "struct_error_val_2":   metrics_val2["struct_error"],
 
-                    "epoch": epoch,
-                    "loss":  loss.cpu().detach().numpy().item()})
+                    "epoch": epoch})
             
 if UPLOAD_METRICS: wandb.finish()
 eval_model(processor, model, dataset_test1, device, vega_structure = False)

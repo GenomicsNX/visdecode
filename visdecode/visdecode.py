@@ -126,7 +126,7 @@ def rms_score(samples):
 def dict_mean(dict):
 
     dict_values = [v for v in dict.values() if v is not None]
-    return (sum(dict_values) / len(dict_values)) if len(dict_values) > 0 else None
+    return (sum(dict_values) / len(dict_values)) if len(dict_values) > 0 else 0
 
 def extract_from_vegas(vegas, gt_vegas):
 

@@ -1,0 +1,48 @@
+
+[36m[1mEpoch :[39m[22m 0 [32m[1m | Loss :[39m[22m 5.132376194000244
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌       | 19/20 [00:40<00:02,  2.47s/it]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:42<00:00,  2.13s/it]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/visdecode/visdecode/trainer.py", line 169, in <module>
+    metrics_val1 = eval_model(processor, model, dataset_val1, device, vega_structure = False)   # visdecode dataset validation
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/visdecode.py", line 327, in eval_model
+    return eval(texts, gt_texts, vega_structure, raw_metrics)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/visdecode.py", line 292, in eval
+    mark_type_score = np.round(dict_mean(metrics["mark_type"]), 2)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py", line 3360, in round
+    return _wrapfunc(a, 'round', decimals=decimals, out=out)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py", line 56, in _wrapfunc
+    return _wrapit(obj, method, *args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py", line 45, in _wrapit
+    result = getattr(asarray(obj), method)(*args, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
