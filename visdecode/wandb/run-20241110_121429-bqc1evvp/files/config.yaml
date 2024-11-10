@@ -5,10 +5,10 @@ learning_rate:
   value: 1.0e-05
 epochs:
   desc: null
-  value: 50
+  value: 100
 max_length:
   desc: null
-  value: 200
+  value: 100
 batch_size:
   desc: null
   value: 16
@@ -24,7 +24,7 @@ _wandb:
     huggingface_version: 4.38.1
     is_jupyter_run: false
     is_kaggle_kernel: false
-    start_time: 1731184974.895467
+    start_time: 1731251669.953415
     t:
       1:
       - 1
@@ -41,7 +41,6 @@ _wandb:
       - 51
       - 55
       3:
-      - 2
       - 13
       - 16
       - 23

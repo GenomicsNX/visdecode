@@ -20,10 +20,10 @@ COMMENT = "train set de 2k"
 UPLOAD_METRICS = True
 
 LR = 1e-5
-EPOCHS = 50
-EVAL_STEP = 5
+EPOCHS = 100
+EVAL_STEP = 10
 
-MAX_LENGTH = 200
+MAX_LENGTH = 100
 visdecode.MAX_LENGTH = MAX_LENGTH
 BATCH_SIZE = 16
 
@@ -197,4 +197,4 @@ for epoch in range(EPOCHS + 1):
             
 if UPLOAD_METRICS: wandb.finish()
 eval_model(processor, model, dataset_test1, device, vega_structure = False)
-eval_model(processor, model, dataset_test2, device, vega_structure = False)
+#eval_model(processor, model, dataset_test2, device, vega_structure = False)

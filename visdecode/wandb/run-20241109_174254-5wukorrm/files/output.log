@@ -1206,3 +1206,638 @@ circle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
 [35m[1m------------------------------------------------------------------------------------------------------------------------
 [35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
 
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:14<00:00,  2.85it/s]
+[36m[1mEpoch :[39m[22m 31 [32m[1m | Loss :[39m[22m 0.042157433927059174
+[36m[1mEpoch :[39m[22m 32 [32m[1m | Loss :[39m[22m 0.03900943323969841
+[36m[1mEpoch :[39m[22m 33 [32m[1m | Loss :[39m[22m 0.03550969064235687
+[36m[1mEpoch :[39m[22m 34 [32m[1m | Loss :[39m[22m 0.03245744854211807
+[36m[1mEpoch :[39m[22m 35 [32m[1m | Loss :[39m[22m 0.029747366905212402
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.80it/s]
+  0%|                                                                                                                                                                           | 0/40 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m45.0[39m [31m%[39m [35m|
+[[0. 3. 0. 0.]
+ [0. 2. 1. 0.]
+ [0. 4. 1. 0.]
+ [0. 0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.9 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.95 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.45 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|temporal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31mbar|temporal|Median Household Income Indexed By Regional Inflation Rates
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|temporal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = np.array(heights)<0x0A> heights=np.array(heights)<0x0A> heights=np.random.random_constant(height)<0x0A>gapminder = np.loadtxt('Height')<0x0A>
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31mcircle|temporal|Log Transformed Peak Demand During Holiday Seasons At Retail Stores
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31mline|temporal|Smoking Rate|Smoketon Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+line|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mcircle|temporal|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age:
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+bar|nominal|Distance|quantitative|Probability Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+line|temporal|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mscatter|temporal|Assessment Of Healthcare Utilization Rates By Demographic Groups<0x0A>
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|temporal|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|Dtrended Analysis Of Yearly Weather Temperature Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31mline|nominal|Manufacturing Output|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|Expenditure
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.9 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.95 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.45 [35m|
+
+
+
+
+
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉    | 39/40 [00:14<00:00,  2.67it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 0.  0.  0.  0.]
+ [ 0. 29.  0.  0.]
+ [ 0.  0. 11.  0.]
+ [ 0.  0.  0.  0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mline|temporal|Year|quantitative|Information index(0=low to 8=high)
+line|temporal|Year|quantitative|Information index(0=low to 8=high)
+[32m[1mline|temporal|Year|quantitative|% of total agricultural land
+line|temporal|Year|quantitative|% of total agricultural land
+[32m[1mline|temporal|Year|quantitative|Teachers, female (%)
+line|temporal|Year|quantitative|Teachers, female (%)
+[32m[1mline|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+line|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mbar|temporal|Year|quantitative|Enrollments (in %)
+bar|temporal|Year|quantitative|Enrollments (in %)
+[32m[1mbar|temporal|Year|quantitative|Time spent(% of senior management time)
+bar|temporal|Year|quantitative|Time spent(% of senior management time)
+[32m[1mbar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+bar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+[32m[1mbar|temporal|Year|quantitative|Total debt (in current US$)
+bar|temporal|Year|quantitative|Total debt (in current US$)
+[32m[1mbar|temporal|Year|quantitative|CO2 emissions (in kt)
+bar|temporal|Year|quantitative|CO2 emissions (in kt)
+[32m[1mbar|temporal|Year|quantitative|Domestic credit (% of GDP)
+bar|temporal|Year|quantitative|Domestic credit (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Part-time workers(% of total employed)
+bar|nominal|Country|quantitative|Part-time workers(% of total employed)
+[32m[1mbar|nominal|Country|quantitative|Imports (% of GDP)
+bar|nominal|Country|quantitative|Imports (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+bar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+[32m[1mbar|nominal|Country|quantitative|% of fertilizer production
+bar|nominal|Country|quantitative|% of fertilizer production
+[32m[1mbar|nominal|Country|quantitative|Armed forces personnel
+bar|nominal|Country|quantitative|Armed forces personnel
+[32m[1mbar|temporal|Year|quantitative|Population growth (in %)
+bar|temporal|Year|quantitative|Population growth (in %)
+[32m[1mbar|nominal|Country|quantitative|% of female youth population
+bar|nominal|Country|quantitative|% of female youth population
+[32m[1mbar|temporal|Year|quantitative|% of children who received DPT vaccine
+bar|temporal|Year|quantitative|% of children who received DPT vaccine
+[32m[1mbar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-29)
+[32m[1mbar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+bar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|temporal|Year|quantitative|IMF credit(in current US$)
+bar|temporal|Year|quantitative|IMF credit(in current US$)
+[32m[1mbar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+bar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+[32m[1mbar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+bar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+[32m[1mbar|nominal|Country|quantitative|Number of total applications
+bar|nominal|Country|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Number of total applications
+circle|temporal|Year|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+circle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+[32m[1mcircle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+circle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+[32m[1mcircle|temporal|Year|quantitative|Number of procedures to build a warehouse
+circle|temporal|Year|quantitative|Number of procedures to build a warehouse
+[32m[1mcircle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+circle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+circle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+[32m[1mcircle|temporal|Year|quantitative|Insurance services (% of service imports)
+circle|temporal|Year|quantitative|Insurance services (% of service imports)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Number (per 1,000 people)
+circle|temporal|Year|quantitative|Number (per 1,000 people)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+circle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:14<00:00,  2.78it/s]
+[36m[1mEpoch :[39m[22m 36 [32m[1m | Loss :[39m[22m 0.02699129283428192
+[36m[1mEpoch :[39m[22m 37 [32m[1m | Loss :[39m[22m 0.0247985627502203
+[36m[1mEpoch :[39m[22m 38 [32m[1m | Loss :[39m[22m 0.022595303133130074
+[36m[1mEpoch :[39m[22m 39 [32m[1m | Loss :[39m[22m 0.02136525884270668
+[36m[1mEpoch :[39m[22m 40 [32m[1m | Loss :[39m[22m 0.019313998520374298
+
+
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                | 18/20 [00:07<00:01,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m45.0[39m [31m%[39m [35m|
+[[0. 3. 0. 0.]
+ [0. 2. 1. 0.]
+ [0. 4. 1. 0.]
+ [0. 0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.9 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.45 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|temporal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31mbar|temporal|Median Household Income Indexed By Regional Inflation Rates
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|temporal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = m.plotting. heights(column='Height')
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31mcircle|temporal|Log Transformed Peak Demand During Holiday Seasons At Retail Stores
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31mline|temporal|Smoking Rate|Simulation Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+line|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mscatter|temporal|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+bar|nominal|Distance|quantitative|Probability Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+line|temporal|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mscatter|temporal|Assessment Of Healthcare Utilization Rates By Demographic Groups<0x0A>
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|temporal|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|Dtrended Analysis Of Yearly Weather Temperature Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31mline|nominal|Manufacturing Output|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|Expend Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.9 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.45 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:08<00:00,  2.50it/s]
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:12<00:00,  3.31it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 0.  0.  0.  0.]
+ [ 0. 29.  0.  0.]
+ [ 0.  0. 11.  0.]
+ [ 0.  0.  0.  0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mline|temporal|Year|quantitative|Information index(0=low to 8=high)
+line|temporal|Year|quantitative|Information index(0=low to 8=high)
+[32m[1mline|temporal|Year|quantitative|% of total agricultural land
+line|temporal|Year|quantitative|% of total agricultural land
+[32m[1mline|temporal|Year|quantitative|Teachers, female (%)
+line|temporal|Year|quantitative|Teachers, female (%)
+[32m[1mline|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+line|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mbar|temporal|Year|quantitative|Enrollments (in %)
+bar|temporal|Year|quantitative|Enrollments (in %)
+[32m[1mbar|temporal|Year|quantitative|Time spent(% of senior management time)
+bar|temporal|Year|quantitative|Time spent(% of senior management time)
+[32m[1mbar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+bar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+[32m[1mbar|temporal|Year|quantitative|Total debt (in current US$)
+bar|temporal|Year|quantitative|Total debt (in current US$)
+[32m[1mbar|temporal|Year|quantitative|CO2 emissions (in kt)
+bar|temporal|Year|quantitative|CO2 emissions (in kt)
+[32m[1mbar|temporal|Year|quantitative|Domestic credit (% of GDP)
+bar|temporal|Year|quantitative|Domestic credit (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Part-time workers(% of total employed)
+bar|nominal|Country|quantitative|Part-time workers(% of total employed)
+[32m[1mbar|nominal|Country|quantitative|Imports (% of GDP)
+bar|nominal|Country|quantitative|Imports (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+bar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+[32m[1mbar|nominal|Country|quantitative|% of fertilizer production
+bar|nominal|Country|quantitative|% of fertilizer production
+[32m[1mbar|nominal|Country|quantitative|Armed forces personnel
+bar|nominal|Country|quantitative|Armed forces personnel
+[32m[1mbar|temporal|Year|quantitative|Population growth (in %)
+bar|temporal|Year|quantitative|Population growth (in %)
+[32m[1mbar|nominal|Country|quantitative|% of female youth population
+bar|nominal|Country|quantitative|% of female youth population
+[32m[1mbar|temporal|Year|quantitative|% of children who received DPT vaccine
+bar|temporal|Year|quantitative|% of children who received DPT vaccine
+[32m[1mbar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+bar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|temporal|Year|quantitative|IMF credit(in current US$)
+bar|temporal|Year|quantitative|IMF credit(in current US$)
+[32m[1mbar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+bar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+[32m[1mbar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+bar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+[32m[1mbar|nominal|Country|quantitative|Number of total applications
+bar|nominal|Country|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Number of total applications
+circle|temporal|Year|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+circle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+[32m[1mcircle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+circle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+[32m[1mcircle|temporal|Year|quantitative|Number of procedures to build a warehouse
+circle|temporal|Year|quantitative|Number of procedures to build a warehouse
+[32m[1mcircle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+circle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+circle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+[32m[1mcircle|temporal|Year|quantitative|Insurance services (% of service imports)
+circle|temporal|Year|quantitative|Insurance services (% of service imports)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Number (per 1,000 people)
+circle|temporal|Year|quantitative|Number (per 1,000 people)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+circle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 41 [32m[1m | Loss :[39m[22m 0.019779551774263382
+[36m[1mEpoch :[39m[22m 42 [32m[1m | Loss :[39m[22m 0.016793159767985344
+[36m[1mEpoch :[39m[22m 43 [32m[1m | Loss :[39m[22m 0.01573982462286949
+[36m[1mEpoch :[39m[22m 44 [32m[1m | Loss :[39m[22m 0.014187285676598549
+[36m[1mEpoch :[39m[22m 45 [32m[1m | Loss :[39m[22m 0.013082143850624561
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:05<00:00,  3.54it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m40.0[39m [31m%[39m [35m|
+[[0. 3. 0. 0.]
+ [0. 3. 2. 0.]
+ [0. 3. 1. 0.]
+ [0. 0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.93 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.24 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.91 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.4 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode|quantitative|Average of Concentration
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|nominal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31mbar|nominal|Consumer Price Index|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31mbar|temporal|Median Household Income Indexed By Regional Inflation Rates
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|temporal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = pd.DataFrame({'Height': heights, 'Speed': heights})
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31mcircle|temporal|Log Transformed Peak Demand During Holiday Seasons As Retail Stores
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+line|temporal|Smoking Rate|quantitative|Simulation Results Of Vatable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+line|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mcircle|temporal|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heteroperator(%)<0x0A>printf("Heteroperatorly In Clinical Trial Populations By General Average:")
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+bar|nominal|Distance|quantitative|Probability Density Function OYA Distribution in Population
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth Rate|quantitative|GDPP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+line|temporal|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mscatter|temporal|Assessment Of Healthcare Utilization Rates By Demographic Groups
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|temporal|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+line|nominal|Manufacturing Output|quantitative|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|Energy Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.93 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.24 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.97 [35m|[39m [36m[1mY-NAME[39m[22m : 0.91 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.4 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉    | 39/40 [00:11<00:00,  3.27it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 0.  0.  0.  0.]
+ [ 0. 29.  0.  0.]
+ [ 0.  0. 11.  0.]
+ [ 0.  0.  0.  0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mline|temporal|Year|quantitative|Information index(0=low to 8=high)
+line|temporal|Year|quantitative|Information index(0=low to 8=high)
+[32m[1mline|temporal|Year|quantitative|% of total agricultural land
+line|temporal|Year|quantitative|% of total agricultural land
+[32m[1mline|temporal|Year|quantitative|Teachers, female (%)
+line|temporal|Year|quantitative|Teachers, female (%)
+[32m[1mline|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+line|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mbar|temporal|Year|quantitative|Enrollments (in %)
+bar|temporal|Year|quantitative|Enrollments (in %)
+[32m[1mbar|temporal|Year|quantitative|Time spent(% of senior management time)
+bar|temporal|Year|quantitative|Time spent(% of senior management time)
+[32m[1mbar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+bar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+[32m[1mbar|temporal|Year|quantitative|Total debt (in current US$)
+bar|temporal|Year|quantitative|Total debt (in current US$)
+[32m[1mbar|temporal|Year|quantitative|CO2 emissions (in kt)
+bar|temporal|Year|quantitative|CO2 emissions (in kt)
+[32m[1mbar|temporal|Year|quantitative|Domestic credit (% of GDP)
+bar|temporal|Year|quantitative|Domestic credit (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Part-time workers(% of total employed)
+bar|nominal|Country|quantitative|Part-time workers(% of total employed)
+[32m[1mbar|nominal|Country|quantitative|Imports (% of GDP)
+bar|nominal|Country|quantitative|Imports (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+bar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+[32m[1mbar|nominal|Country|quantitative|% of fertilizer production
+bar|nominal|Country|quantitative|% of fertilizer production
+[32m[1mbar|nominal|Country|quantitative|Armed forces personnel
+bar|nominal|Country|quantitative|Armed forces personnel
+[32m[1mbar|temporal|Year|quantitative|Population growth (in %)
+bar|temporal|Year|quantitative|Population growth (in %)
+[32m[1mbar|nominal|Country|quantitative|% of female youth population
+bar|nominal|Country|quantitative|% of female youth population
+[32m[1mbar|temporal|Year|quantitative|% of children who received DPT vaccine
+bar|temporal|Year|quantitative|% of children who received DPT vaccine
+[32m[1mbar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-29)
+[32m[1mbar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+bar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|temporal|Year|quantitative|IMF credit(in current US$)
+bar|temporal|Year|quantitative|IMF credit(in current US$)
+[32m[1mbar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+bar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+[32m[1mbar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+bar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+[32m[1mbar|nominal|Country|quantitative|Number of total applications
+bar|nominal|Country|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Number of total applications
+circle|temporal|Year|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+circle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+[32m[1mcircle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+circle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+[32m[1mcircle|temporal|Year|quantitative|Number of procedures to build a warehouse
+circle|temporal|Year|quantitative|Number of procedures to build a warehouse
+[32m[1mcircle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+circle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+circle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+[32m[1mcircle|temporal|Year|quantitative|Insurance services (% of service imports)
+circle|temporal|Year|quantitative|Insurance services (% of service imports)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Number (per 1,000 people)
+circle|temporal|Year|quantitative|Number (per 1,000 people)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+circle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:12<00:00,  3.33it/s]
+[36m[1mEpoch :[39m[22m 46 [32m[1m | Loss :[39m[22m 0.01217349898070097
+[36m[1mEpoch :[39m[22m 47 [32m[1m | Loss :[39m[22m 0.01124208327382803
+[36m[1mEpoch :[39m[22m 48 [32m[1m | Loss :[39m[22m 0.014877209439873695
+[36m[1mEpoch :[39m[22m 49 [32m[1m | Loss :[39m[22m 0.009804537519812584
+[36m[1mEpoch :[39m[22m 50 [32m[1m | Loss :[39m[22m 0.00901478249579668
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:10<00:00,  1.89it/s]
+  0%|                                                                                                                                                                           | 0/40 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m25.0[39m [31m%[39m [35m|
+[[0. 5. 0. 0.]
+ [0. 3. 2. 0.]
+ [0. 4. 1. 0.]
+ [0. 0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.93 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.2 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.93 [35m|[39m [36m[1mY-NAME[39m[22m : 0.85 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode|quantitative|Air Pollution
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|temporal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31mbar|temporal|Median Household Income Indexed By Regional Inflation Rates
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|temporal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+circle|temporal|Height|quantitative|Survival|quantitative
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31mcircle|temporal|Log Transformed Peak Demand During Holiday Seasons At Retail Stores
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+line|temporal|Smoking Rate|quantitative|Smoking Results Of Vatable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+line|temporal|Time|quantitative|Probability Density Function for Reaction Time (counts)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+circle|temporal|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|H heterogeneity in Clinical Trial Populations By General Average
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+bar|nominal|Distance|quantitative|Probability Density Function in Population (in Population)
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+line|temporal|Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mscatter|temporal|Assessment Of Healthcare Utilization Rates By Demographic Groups<0x0A>
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|temporal|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|Detected Analysis Of Yield Weather In Normal Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+line|nominal|Manufacturing Output|quantitative|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|EnergyVolume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.93 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.2 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 0.93 [35m|[39m [36m[1mY-NAME[39m[22m : 0.85 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+
+
+
+
+
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉        | 38/40 [00:12<00:00,  3.11it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 0.  0.  0.  0.]
+ [ 0. 29.  0.  0.]
+ [ 0.  0. 11.  0.]
+ [ 0.  0.  0.  0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mline|temporal|Year|quantitative|Information index(0=low to 8=high)
+line|temporal|Year|quantitative|Information index(0=low to 8=high)
+[32m[1mline|temporal|Year|quantitative|% of total agricultural land
+line|temporal|Year|quantitative|% of total agricultural land
+[32m[1mline|temporal|Year|quantitative|Teachers, female (%)
+line|temporal|Year|quantitative|Teachers, female (%)
+[32m[1mline|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+line|temporal|Year|quantitative|Expenditure (as % of GDP per capita)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mbar|temporal|Year|quantitative|Enrollments (in %)
+bar|temporal|Year|quantitative|Enrollments (in %)
+[32m[1mbar|temporal|Year|quantitative|Time spent(% of senior management time)
+bar|temporal|Year|quantitative|Time spent(% of senior management time)
+[32m[1mbar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+bar|nominal|Country|quantitative|Payments(% of exports of goods, services and primary income)
+[32m[1mbar|temporal|Year|quantitative|Total debt (in current US$)
+bar|temporal|Year|quantitative|Total debt (in current US$)
+[32m[1mbar|temporal|Year|quantitative|CO2 emissions (in kt)
+bar|temporal|Year|quantitative|CO2 emissions (in kt)
+[32m[1mbar|temporal|Year|quantitative|Domestic credit (% of GDP)
+bar|temporal|Year|quantitative|Domestic credit (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Part-time workers(% of total employed)
+bar|nominal|Country|quantitative|Part-time workers(% of total employed)
+[32m[1mbar|nominal|Country|quantitative|Imports (% of GDP)
+bar|nominal|Country|quantitative|Imports (% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed males(% of male labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+bar|temporal|Year|quantitative|Unemployed males (as % of male labor force ages 15-24)
+[32m[1mbar|nominal|Country|quantitative|% of fertilizer production
+bar|nominal|Country|quantitative|% of fertilizer production
+[32m[1mbar|nominal|Country|quantitative|Armed forces personnel
+bar|nominal|Country|quantitative|Armed forces personnel
+[32m[1mbar|temporal|Year|quantitative|Population growth (in %)
+bar|temporal|Year|quantitative|Population growth (in %)
+[32m[1mbar|nominal|Country|quantitative|% of female youth population
+bar|nominal|Country|quantitative|% of female youth population
+[32m[1mbar|temporal|Year|quantitative|% of children who received DPT vaccine
+bar|temporal|Year|quantitative|% of children who received DPT vaccine
+[32m[1mbar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+bar|nominal|Country|quantitative|Unemployed females (as % of female labor force ages 15-24)
+[32m[1mbar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+bar|temporal|Year|quantitative|Amount of energy used(kg of oil equivalent per capita)
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|temporal|Year|quantitative|IMF credit(in current US$)
+bar|temporal|Year|quantitative|IMF credit(in current US$)
+[32m[1mbar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+bar|nominal|Country|quantitative|Full-time male workers(% of males employed)
+[32m[1mbar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+bar|temporal|Year|quantitative|Net ODA received per capita (current US$)
+[32m[1mbar|nominal|Country|quantitative|Number of total applications
+bar|nominal|Country|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Number of total applications
+circle|temporal|Year|quantitative|Number of total applications
+[32m[1mcircle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+circle|temporal|Year|quantitative|Official exchange rate (LCU per US$ period average)
+[32m[1mcircle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+circle|temporal|Year|quantitative|Mean income or consumption per capita(2011 PPP $ per day)
+[32m[1mcircle|temporal|Year|quantitative|Number of procedures to build a warehouse
+circle|temporal|Year|quantitative|Number of procedures to build a warehouse
+[32m[1mcircle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+circle|temporal|Year|quantitative|Unemployed males (as % of male labor force)
+[32m[1mcircle|temporal|Year|quantitative|% of female youth population
+circle|temporal|Year|quantitative|% of female youth population
+[32m[1mcircle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+circle|temporal|Year|quantitative|Vulnerable female employment (% of total female employment)
+[32m[1mcircle|temporal|Year|quantitative|Insurance services (% of service imports)
+circle|temporal|Year|quantitative|Insurance services (% of service imports)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Number (per 1,000 people)
+circle|temporal|Year|quantitative|Number (per 1,000 people)
+[32m[1mcircle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+circle|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[32m[1mcircle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+circle|temporal|Year|quantitative|Rating (1=most business-friendly regulations)
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:12<00:00,  3.14it/s]
