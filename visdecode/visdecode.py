@@ -9,6 +9,7 @@ import json
 import torch
 
 MAX_LENGTH = 400
+VAR_TYPE_CLASSES = ["quantitative", "temporal", "nominal", "ordinal"]
 
 def load_model(owner, model_name, device):
     
@@ -183,7 +184,7 @@ def compute_metrics(vegas, gt_vegas, average = False):
 
     # var types score
 
-    var_types_classes = ["quantitative", "temporal", "nominal", "ordinal"]
+    var_types_classes = VAR_TYPE_CLASSES
 
     x_types = input["x"]["types"]
     y_types = input["y"]["types"]

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/visdecode/visdecode/trainer.py", line 155, in <module>
+    tokens = processor.batch_decode(token_ids, skip_special_tokens=True)[0]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/models/pix2struct/processing_pix2struct.py", line 150, in batch_decode
+    return self.tokenizer.batch_decode(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/tokenization_utils_base.py", line 3743, in batch_decode
+    self.decode(
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/tokenization_utils_base.py", line 3780, in decode
+    token_ids = to_py_obj(token_ids)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/utils/generic.py", line 255, in to_py_obj
+    return framework_to_py_obj[framework](obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/utils/generic.py", line 240, in <lambda>
+    "pt": lambda obj: obj.detach().cpu().tolist(),
+                      ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

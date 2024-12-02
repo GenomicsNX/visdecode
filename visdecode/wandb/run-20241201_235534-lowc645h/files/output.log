@@ -1,0 +1,664 @@
+
+[36m[1mEpoch :[39m[22m 0 [32m[1m | Loss :[39m[22m 3.8201358318328857
+
+
+
+
+ 85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 17/20 [00:09<00:01,  1.72it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m90.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [2. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.9 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Create a scatter plot of Mode Age versus Alcohol Consumption<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 10))<0x0A><0x0A># Draw a
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31mbar|quantitative|Water Usage|co2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31mbar|quantitative|Consumer Price Index|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|quantitative|Range|quantitative|Participation Rate|quantitative|Participation Rate|quantitative|Participation Rate|quantitative|Participation Rate|Part
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Create a plot<0x0A>ggplot(data=df, mapping=aes(x='Bond Yield', y='Bond Yield')) +\<0x0A>    geom_bar(stat='identity')
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|quantitative|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = df.groupby('Height').mean()<0x0A>heights.plot(kind='scatter', x='Height', y='Speed', alpha=0.7, figsize=(10,1
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31mbar|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|Import Volume
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set(context="paper", style="ticks", font_scale=1.5)<0x0A><0x0A># Set the background color<0x0A>sns.set(style="ticks", color_codes
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the Co2 emissions<0x0A><0x0A># Set the style<0x0A>sns.set(style = 'ticks')<0x0A><0x0A># Set the figure size<0x0A>fig, ax = plt.subplots(figsize =
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Create a line plot of Probability Density Function for Reaction Time (seconds)<0x0A>sns.set(style="ticks")<0x0A><0x0A># Compute the Probability Density Function for Reaction Time (seconds)<0x0A>probability_density_function_function
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mheights = ggplot(heights, aes(x = predictors, y = heterogeneity)) +<0x0A>    geom_point() +<0x0A>    labs(x = "Predictive Accuracy Of Seasonal Demand Forecasting
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mbar|quantitative|Distance|Probability Density Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31mgdp_data_2018_2018_2018_2018_2018_2018_2018_2018_2018
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A>
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mg = sns.jointplot(data=df, x="Assessment Of Healthcare Utilization Rates By Demographic Groups", y="Relative Risk Assessment Of Health Outcomes In Demographic Studies",<0x0A>                  
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31mheights = [1000, 1000, 1000, 10000, 10000, 100000, 100000
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mgraph = ggplot(df, aes(x=df.columns, y=df.columns)) +<0x0A>    geom_line() +<0x0A>    labs(x="Impact Of Temperature Variability On Crop Yield
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the consumption of fuel consumption<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A><0x0A>ax.plot(df['Manufacturing Output'],df['Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31mg = sns.relplot(x="Literacy Rate", y="Epcnt Volume", data=df, height=8, aspect=1.5, kind="scatter")<0x0A>g.set(xlim
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.9 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:11<00:00,  1.78it/s]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+ 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 19/20 [00:06<00:00,  3.29it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m20.0[39m [31m%[39m [35m|
+[[3. 1. 0.]
+ [0. 8. 0.]
+ [1. 3. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.22 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.52 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.89 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.95 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.2 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+bar|quantitative|Number of passengers carried|quantitative|Country
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31mbar|quantitative|% of children under 5 taken to a health provider
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+bar|temporal|Savings (current US$)|quantitative|Year
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+bar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+bar|quantitative|Full-time male workers(% of males employed)|quantitative|Year
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+bar|temporal|Year|quantitative|Rating index maximum value in 200=100
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+bar|temporal|Year|quantitative|Survival Rate (%)
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+bar|temporal|Year|quantitative|Price value of export (container(LCO))
+[32m[1mline|temporal|Year|quantitative|Average number of days
+bar|temporal|Year|quantitative|Average number of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+bar|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31mgrupo_estado_barras_barras_years_barras_quantitative_barras_barras_barras_barras_barras_barras_barras_barras_barras_barras_
+[32m[1mline|temporal|Year|quantitative|Number of years
+bar|temporal|Year|quantitative|Number of years
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|temporal|Country|quantitative|% of repeaters
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+bar|temporal|Country|quantitative|Net GHG emissions or removals Mk of C22 (estimating)
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+bar|quantitative|Country|quantitative|Earning from traders of GDP
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+bar|temporal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+bar|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mgrupo_bairro(['Year'],2)
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+bar|temporal|Year|quantitative|Total cases received (per 100,000 people)
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31mEntity | Year <0x0A> new registrations per 1,000 people ages 25-44 | nan <0x0A> Yearl | nan <0x0A> new registrations per 1,000 people ages 25-
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.22 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.52 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.89 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.95 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.2 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  3.01it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.13G/1.13G [00:46<00:00, 24.1MB/s]
+[36m[1mEpoch :[39m[22m 1 [32m[1m | Loss :[39m[22m 3.3148062229156494
+[36m[1mEpoch :[39m[22m 2 [32m[1m | Loss :[39m[22m 3.1281814575195312
+[36m[1mEpoch :[39m[22m 3 [32m[1m | Loss :[39m[22m 2.821936845779419
+
+[36m[1mEpoch :[39m[22m 4 [32m[1m | Loss :[39m[22m 2.7438580989837646
+  0%|                                                                                                                                                   | 0/20 [00:00<?, ?it/s]
+
+
+
+ 85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 17/20 [00:05<00:00,  3.08it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m35.0[39m [31m%[39m [35m|
+[[3. 0. 1.]
+ [3. 0. 0.]
+ [6. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.13 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.92 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.35 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+bar|nominal|Mode Age|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|quantitative|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|quantitative|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|quantitative|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+bar|quantitative|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|quantitative|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = df[['Height', 'Speed']]<0x0A><0x0A>ggplot(heights, aes(x='Height', y='Speed')) + geom_point()
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+bar|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|temporal|Import Volume
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+bar|quantitative|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mbar|quantitative|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|CO2 Emissions
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31mbar|time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mbar|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mbar|distance|Probability Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+bar|quantitative|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+bar|quantitative|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mbar|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|quantitative|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mbar|quantitative|Impact Of Temperature Variability On Crop Yield Statistics|dtrended Analysis Of Yearly Weather Weather Analysis Of Yearly Weather Weather Analysis Of Yearly Weather Weather Analysis Of Year
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+bar|quantitative|Manufacturing Output|nominal|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+bar|quantitative|Literacy Rate|quantitative|Epoch Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.13 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.92 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.35 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  2.91it/s]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  2.98it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 5.  0.  0.]
+ [ 0. 11.  0.]
+ [ 0.  0.  4.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+bar|quantitative|Number of passengers carried|nominal|Country
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+bar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+bar|quantitative|Savings (current US$)|temporal|Year
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+bar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+bar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+line|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+line|temporal|Year|quantitative|Survival Rate(%)
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+line|temporal|Year|quantitative|Price value of exports (constant LCO)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+line|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+line|temporal|Year|quantitative|Number of registrations
+[32m[1mline|temporal|Year|quantitative|Number of years
+line|temporal|Year|quantitative|Number of years
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+bar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+bar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+bar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+circle|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+circle|temporal|Year|quantitative|Imports (% of GDP)
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+circle|temporal|Year|quantitative|Titanicados incidents (per 100,000 people)
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+circle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-44
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+README.md: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.18k/5.18k [00:00<00:00, 7.05MB/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.13G/1.13G [00:45<00:00, 24.8MB/s]
+[36m[1mEpoch :[39m[22m 6 [32m[1m | Loss :[39m[22m 2.414299488067627
+[36m[1mEpoch :[39m[22m 7 [32m[1m | Loss :[39m[22m 2.282972812652588
+[36m[1mEpoch :[39m[22m 8 [32m[1m | Loss :[39m[22m 2.0408849716186523
+[36m[1mEpoch :[39m[22m 9 [32m[1m | Loss :[39m[22m 1.8941203355789185
+[36m[1mEpoch :[39m[22m 10 [32m[1m | Loss :[39m[22m 1.914729118347168
+
+
+
+ 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 19/20 [00:06<00:00,  2.82it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m25.0[39m [31m%[39m [35m|
+[[1. 2. 1.]
+ [4. 1. 0.]
+ [4. 1. 1.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.56 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+bar|nominal|Mode Age|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|nominal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|quantitative|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+bar|quantitative|Median Household Income Indexed By Regional Inflation Rates|nominal|Bond Yield
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|quantitative|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = ROOT.TH2F("Height",'Speed',10,False,False,NULL)<0x0A> heights[[1,2]] = heights[[1,2]]<0x0A> heights[[2,3]] = heights[[2
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+bar|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|temporal|Import Volume
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+bar|quantitative|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mbar|quantitative|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|CO2 Emissions
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+bar|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mbar|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mbar|distance|quantitative|Probability Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+bar|quantitative|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mbar|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|quantitative|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+bar|quantitative|Impact Of Temperature Variability On Crop Yield Statistics|nominal|Dtrended Analysis Of Yearly Weather Weather Temperature Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+line|quantitative|Manufacturing Output|nominal|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|Epent Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.56 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  2.90it/s]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+ 85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 17/20 [00:05<00:00,  3.14it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 5.  0.  0.]
+ [ 0. 11.  0.]
+ [ 0.  0.  4.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+bar|quantitative|Number of passengers carried|nominal|Country
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+bar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+bar|quantitative|Savings (current US$)|temporal|Year
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+bar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+bar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+line|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+line|temporal|Year|quantitative|Survival Rate(%)
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+line|temporal|Year|quantitative|Price value of exports (constant LCO)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+line|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+line|temporal|Year|quantitative|Number of registrations
+[32m[1mline|temporal|Year|quantitative|Number of years
+line|temporal|Year|quantitative|Number of years
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+bar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+bar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+bar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+circle|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+circle|temporal|Year|quantitative|Imports (% of GDP)
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+circle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+circle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-44
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 1.0 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  3.13it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.13G/1.13G [00:43<00:00, 25.8MB/s]
+[36m[1mEpoch :[39m[22m 11 [32m[1m | Loss :[39m[22m 1.7172247171401978
+[36m[1mEpoch :[39m[22m 12 [32m[1m | Loss :[39m[22m 1.5338962078094482
+[36m[1mEpoch :[39m[22m 13 [32m[1m | Loss :[39m[22m 1.547508716583252
+[36m[1mEpoch :[39m[22m 14 [32m[1m | Loss :[39m[22m 1.2974979877471924
+[36m[1mEpoch :[39m[22m 15 [32m[1m | Loss :[39m[22m 1.0628561973571777
+
+
+
+ 85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 17/20 [00:05<00:00,  3.02it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m25.0[39m [31m%[39m [35m|
+[[1. 3. 0.]
+ [4. 1. 0.]
+ [4. 1. 1.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.69 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode Age|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|nominal|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|quantitative|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|temporal|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+bar|quantitative|Median Household Income Indexed By Regional Inflation Rates|nominal|Bond Yield
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|quantitative|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = [0,50,100,150,200,250]<0x0A>heights = [len(heights),len(Speed)]*temporal|Height|quantitative|Speed
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+circle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|temporal|Import Volume
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+bar|quantitative|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mbar|quantitative|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|CO2 Emissions
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+bar|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mbar|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mbar|distance|Probability Density F-inction OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|temporal|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+bar|quantitative|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mbar|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|quantitative|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+bar|quantitative|Impact Of Temperature Variability On Crop Yield Statistics|nominal|Dtrended Analysis Of Yearly Weather Weather Temperature Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+line|quantitative|Manufacturing Output|nominal|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|temporal|Literacy Rate|quantitative|Epent Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.69 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  2.90it/s]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+ 80%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                           | 16/20 [00:04<00:01,  3.11it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 5.  0.  0.]
+ [ 0. 11.  0.]
+ [ 0.  0.  4.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+bar|quantitative|Number of passengers carried|nominal|Country
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+bar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+bar|quantitative|Savings (current US$)|temporal|Year
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+bar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+bar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+line|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+line|temporal|Year|quantitative|Survival Rate(%)
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+line|temporal|Year|quantitative|Price value of exports (container LCO)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+line|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+line|temporal|Year|quantitative|Number of registrations
+[32m[1mline|temporal|Year|quantitative|Number of years
+line|temporal|Year|quantitative|Number of years
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+bar|nominal|Country|quantitative|Net GHG emissions or removals MT of CO2 equivalent)
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+bar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+bar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+circle|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+circle|temporal|Year|quantitative|Imports (% of GDP)
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+circle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+circle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-44
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  3.18it/s]
+[36m[1mEpoch :[39m[22m 16 [32m[1m | Loss :[39m[22m 1.0622225999832153
+[36m[1mEpoch :[39m[22m 17 [32m[1m | Loss :[39m[22m 0.9914238452911377
+[36m[1mEpoch :[39m[22m 18 [32m[1m | Loss :[39m[22m 0.9134403467178345
+[36m[1mEpoch :[39m[22m 19 [32m[1m | Loss :[39m[22m 0.7519506812095642
+[36m[1mEpoch :[39m[22m 20 [32m[1m | Loss :[39m[22m 0.6431117057800293
+
+
+
+ 95%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 19/20 [00:06<00:00,  2.94it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m25.0[39m [31m%[39m [35m|
+[[3. 1. 0.]
+ [4. 1. 0.]
+ [6. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.69 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+circle|temporal|Mode Age|quantitative|Alcohol Consumption
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+bar|quantitative|Water Usage|quantitative|CO2 Emissions
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+bar|quantitative|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+bar|quantitative|Range|quantitative|Participation Rate
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+bar|quantitative|Median Household Income Indexed By Regional Inflation Rates|nominal|Bond Yield
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+bar|quantitative|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = [0,50,100,150,200,250]<0x0A>heights = [len(Speed)]*temporal|Speed
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+circle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|temporal|Import Volume
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+bar|quantitative|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31mbar|quantitative|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|CO2 Emissions
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+bar|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mbar|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|Heterogeneity In Clinical Trial Populations By Gender And Age
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mbar|distance|Probability Density Function OF Age Distribution in Population Survey
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+circle|quantitative|Growth Rate|quantitative|GDP
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+bar|quantitative|Mental Health|quantitative|Import Volume
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31mbar|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+bar|quantitative|Mortality Rate|quantitative|Poverty Rate
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+bar|quantitative|Impact Of Temperature Variability On Crop Yield Statistics|nominal|Dtrended Analysis Of Yearly Weather Weather Temperature Data
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+line|quantitative|Manufacturing Output|nominal|Fuel Consumption
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+circle|quantitative|Literacy Rate|quantitative|Epoch Volume
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0.69 [35m|[39m [36m[1mX-TYPE[39m[22m : 0.21 [35m|[39m [36m[1mY-TYPE[39m[22m : 0.84 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.98 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.25 [35m|
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:06<00:00,  2.97it/s]
+
+
+ 80%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                           | 16/20 [00:05<00:01,  2.36it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m0.0[39m [31m%[39m [35m|
+[[ 5.  0.  0.]
+ [ 0. 11.  0.]
+ [ 0.  0.  4.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+bar|quantitative|Number of passengers carried|nominal|Country
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+bar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+bar|quantitative|Savings (current US$)|temporal|Year
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+bar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+bar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+line|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+line|temporal|Year|quantitative|Survival Rate(%)
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+line|temporal|Year|quantitative|Price value of exports (container LCO)
+[32m[1mline|temporal|Year|quantitative|Average number of days
+line|temporal|Year|quantitative|Average number of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+line|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+line|temporal|Year|quantitative|Number of registrations
+[32m[1mline|temporal|Year|quantitative|Number of years
+line|temporal|Year|quantitative|Number of years
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+bar|nominal|Country|quantitative|% of repeaters
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+bar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+bar|nominal|Country|quantitative|Earning from traders(% of GDP)
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+bar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+circle|temporal|Year|quantitative|Total reserves (current US$)
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+circle|temporal|Year|quantitative|Imports (% of GDP)
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+circle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+circle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-44
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mY-TYPE[39m[22m : 1.0 [35m|[39m [36m[1mX-NAME[39m[22m : 1.0 [35m|[39m [36m[1mY-NAME[39m[22m : 0.99 [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 0.0 [35m|
+
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:07<00:00,  2.84it/s]
+[36m[1mEpoch :[39m[22m 21 [32m[1m | Loss :[39m[22m 0.622800350189209
+[36m[1mEpoch :[39m[22m 22 [32m[1m | Loss :[39m[22m 0.5672744512557983
+[36m[1mEpoch :[39m[22m 23 [32m[1m | Loss :[39m[22m 0.4844911992549896
+[36m[1mEpoch :[39m[22m 24 [32m[1m | Loss :[39m[22m 0.4158960282802582
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/visdecode/visdecode/trainer.py", line 158, in <module>
+    loss.backward()
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/torch/autograd/__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

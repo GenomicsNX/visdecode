@@ -11,23 +11,28 @@ from PIL import Image
 from torchvision import transforms
 from tqdm.auto import tqdm
 import gc
-DEVICE_ID = 1
+from datetime import datetime
+import matplotlib.pyplot as plt
 
-MODEL = "plotqa_simple_5_2k"
+DEVICE_ID = 0
+
+MODEL = "plotQA_simple_10"
 TRAIN_MODEL = "matcha-base"
-COMMENT = "train set de 2k"
+COMMENT = "PlotQA testing aumenta de tamaño (1000). Quiero generar un modelo base para comparar"
 
 UPLOAD_METRICS = True
 
 LR = 1e-5
 EPOCHS = 100
-EVAL_STEP = 10
+EVAL_STEP = 5
 
-MAX_LENGTH = 100
+MAX_LENGTH = 50
 visdecode.MAX_LENGTH = MAX_LENGTH
+visdecode.VAR_TYPE_CLASSES = ["quantitative", "temporal", "nominal"]
 BATCH_SIZE = 16
 
-MAX_SCORE = 0.6
+MAX_SCORE = 0.1
+MAX_EPOCH = -1
 UPLOAD_METRICS = UPLOAD_METRICS and EPOCHS != -1
 torch.manual_seed(42)
 torch.cuda.manual_seed(42)
@@ -38,12 +43,12 @@ torch.cuda.set_device(DEVICE_ID)
 wandb.login(key = "451637d95c22df4568c6f5a268e37071bc14547b")
 login(token = "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")
 
-dataset_train = load_dataset("martinsinnona/plotqa_simple_2k", split = "train")
+dataset_train = load_dataset("martinsinnona/plotqa_simple_2", split = "train")
 
 dataset_val1 = load_dataset("martinsinnona/visdecode_simple", split = "validation")
-dataset_val2 = load_dataset("martinsinnona/plotqa_simple_2k", split = "validation")
+dataset_val2 = load_dataset("martinsinnona/plotqa_simple_2", split = "validation")
 
-dataset_test1 = load_dataset("martinsinnona/plotqa_simple_2k", split = "test")
+dataset_test1 = load_dataset("martinsinnona/plotqa_simple_2", split = "test")
 dataset_test2 = load_dataset("martinsinnona/visdecode_web", split = "test")
 
 print(bold(green("\n[Train] :")), len(dataset_train))
@@ -159,7 +164,6 @@ for epoch in range(EPOCHS + 1):
         gc.collect() 
 
     print(bold(cyan("Epoch :")), epoch, bold(green(" | Loss :")), loss.item())
-    if UPLOAD_METRICS: wandb.log({"loss":  loss.item()})
 
     losses.append(loss.item())
 
@@ -170,10 +174,11 @@ for epoch in range(EPOCHS + 1):
         metrics_val1 = eval_model(processor, model, dataset_val1, device, vega_structure = False)   # visdecode dataset validation
         metrics_val2 = eval_model(processor, model, dataset_val2, device, vega_structure = False)   # plotQA dataset validation
 
-        if metrics_val2["y_name"] > MAX_SCORE:
+        if dict_mean(metrics_val2) > MAX_SCORE:
 
             model.push_to_hub(MODEL)
-            MAX_SCORE = metrics_val2["y_name"]
+            MAX_SCORE = dict_mean(metrics_val2)
+            MAX_EPOCH = epoch
 
         if UPLOAD_METRICS: 
 
@@ -193,8 +198,35 @@ for epoch in range(EPOCHS + 1):
                     "y_name_val_2":         metrics_val2["y_name"], 
                     "struct_error_val_2":   metrics_val2["struct_error"],
 
-                    "epoch": epoch})
+                    "epoch": epoch,
+                    "max_epoch": MAX_EPOCH,
+                    "loss": loss.item()})
             
 if UPLOAD_METRICS: wandb.finish()
+def parameters_change(parameters, new_parameters):
+    
+    means = []
+
+    with torch.no_grad():
+
+        for p, new_p in zip(parameters, new_parameters):
+            
+            diff = torch.abs(p[0] - new_p[0])
+            means.append(torch.mean(diff).item())
+
+    return means
+
+_, model_matcha = visdecode.load_model("google", "matcha-base", device)
+means = parameters_change(model_matcha.parameters(), model.parameters())
+
+plt.figure(figsize=(20,5))
+plt.bar(np.arange(len(means)), means)
+
+plt.title("mean change of weights")
+
+plt.xlabel("weights layer index")
+plt.ylabel("mean change")
+
+#plt.savefig("mean_weights_change.png", dpi=300, bbox_inches='tight')
 eval_model(processor, model, dataset_test1, device, vega_structure = False)
 #eval_model(processor, model, dataset_test2, device, vega_structure = False)

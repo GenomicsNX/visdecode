@@ -1,0 +1,1304 @@
+
+[36m[1mEpoch :[39m[22m 0 [32m[1m | Loss :[39m[22m 17.595230102539062
+
+
+
+
+
+ 90%|█████████ | 18/20 [00:10<00:01,  1.64it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 10))<0x0A>
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the barplot<0x0A>sns.barplot(x="Consumer Price Index", y="Kurtosis And Skewness Of Annual Corporate
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# plot the scatter plot<0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df['log_transformed_peak_demand_during_holiday_seasons
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("Set2")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.figure(figsize=(10,10))<0x0A><0x0A># Plot the linear regression model with the CO2 emissions<0x0A>sns
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted values of the predictors of the seasonality of the clinical trial population by the seasonality of the predictors of the clinical trial population by the seasonality of the predictors of the clinical trial population by
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig = plt.figure(figsize=(10,10))<0x0A>ax = fig.add_subplot(111)<0x0A>ax.plot(dist
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_context("paper", font_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(1, 2, fig
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['Impact Of Temperature Variability On Crop Yield Statistics'], df
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the data<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])<0x0A>ax.
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot for the literacy rate vs. eport volume<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume', data=df, fit_reg=False, size=8
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+100%|██████████| 20/20 [00:12<00:00,  1.64it/s]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+
+
+ 85%|████████▌ | 17/20 [00:10<00:01,  1.57it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the graph<0x0A><0x0A># Setting up the plot<0x0A>fig, ax = plt.subplots(figsize=(20, 20))<0x0A><0x0A># Setting up the plot<0x0A>ax.plot(df_
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of 
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20, 20))<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Duration given to resolve insolvency in High income_ OECD')<0x0A>plt.xlabel('Year'
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net_GH
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph<0x0A>country_1978.plot(kind='bar', figsize=(25,25), color='green')<0x0A>plt.xlabel('Country')<0x0A>plt.y
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = pl
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20, 20))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df['Year'], df['new_businesses'], color
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+100%|██████████| 20/20 [00:12<00:00,  1.57it/s]
+[36m[1mEpoch :[39m[22m 1 [32m[1m | Loss :[39m[22m 17.861125946044922
+[36m[1mEpoch :[39m[22m 2 [32m[1m | Loss :[39m[22m 17.913536071777344
+[36m[1mEpoch :[39m[22m 3 [32m[1m | Loss :[39m[22m 17.24437141418457
+[36m[1mEpoch :[39m[22m 4 [32m[1m | Loss :[39m[22m 17.478107452392578
+  5%|▌         | 1/20 [00:00<00:11,  1.64it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.65it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 8))<0x0A><0x0A>
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the graph of the Kurtosis And Skewness Of Annual Corporate Profit Margins<0x0A><0x0A>sns.
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# plot the scatter plot of log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(log_transformed_peak_demand_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("Set2")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.figure(figsize=(10,10))<0x0A><0x0A># Plot the linear regression model with the CO2 emissions<0x0A>sns
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted values of the predictors of the seasonality of the clinical trial population by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper", font
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig = plt.figure(figsize=(10,10))<0x0A>ax = fig.add_subplot(111)<0x0A>ax.plot(distance
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_context("paper", font_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(1, 2, fig
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['Impact of Temperature Variability on Crop Yield Statistics'], df
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the data<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])<0x0A>ax.
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot for the literacy rate vs. eport volume<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume', data=df, fit_reg=False, size=8
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.61it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Plotting the index of the index of the index of the index of the index of the index of the index of the index of the index of
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>sns.set_context("paper", font_scale=2)<0x0A><0x0A>sns.set_palette
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Duration given to resolve insolvency in High income_ OECD')<0x0A>plt.xlabel('Year'
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph<0x0A>country_1978.plot(kind='bar', figsize=(25,25), color='green')<0x0A>plt.xlabel('Country')<0x0A>plt.y
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = pl
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported in
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df['Year'], df['new_businesses'], color
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 6 [32m[1m | Loss :[39m[22m 17.608001708984375
+[36m[1mEpoch :[39m[22m 7 [32m[1m | Loss :[39m[22m 17.5893497467041
+[36m[1mEpoch :[39m[22m 8 [32m[1m | Loss :[39m[22m 17.22539710998535
+[36m[1mEpoch :[39m[22m 9 [32m[1m | Loss :[39m[22m 17.005393981933594
+ 10%|█         | 2/20 [00:01<00:10,  1.71it/s]
+
+
+
+
+
+ 95%|█████████▌| 19/20 [00:11<00:00,  1.67it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+100%|██████████| 20/20 [00:11<00:00,  1.71it/s]
+ 10%|█         | 2/20 [00:01<00:10,  1.68it/s]
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the barplot<0x0A>sns.set(font_scale=1.5)<0x0A>sns.set_
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("muted")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.figure(figsize=(10,10))<0x0A><0x0A># Plot the linear regression model with the CO2 emissions<0x0A>sns
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted values of the predictors of the seasonality of the clinical trial population by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper", font
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig = plt.figure(figsize=(10,10))<0x0A>ax = fig.add_subplot(111)<0x0A>ax.plot(distance
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_context("paper", font_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(1, 2, fig
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['Impact of Temperature Variability on Crop Yield Statistics'], df
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the total consumption of each fuel type<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume', data=df, fit_
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:11<00:00,  1.67it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Plotting the index of the index of the index of the index of the index of the index of the index of the index of the index of
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>sns.set_context("paper", font_scale=2)<0x0A><0x0A>sns.set_palette
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of values in the dataframe<0x0A><0x0A># Create a new dataframe with the highest number of values in the dataframe<0x0A>high_income_high_income = pd.DataFrame
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = pl
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported in
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df['Year'], df['new_businesses'], color
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 11 [32m[1m | Loss :[39m[22m 17.393352508544922
+[36m[1mEpoch :[39m[22m 12 [32m[1m | Loss :[39m[22m 17.153234481811523
+[36m[1mEpoch :[39m[22m 13 [32m[1m | Loss :[39m[22m 17.964027404785156
+[36m[1mEpoch :[39m[22m 14 [32m[1m | Loss :[39m[22m 16.87086296081543
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:11<00:00,  1.74it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the barplot<0x0A>sns.set(font_scale=1.5)<0x0A>sns.set_
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the distribution of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("muted")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.figure(figsize=(10,10))<0x0A><0x0A># Plot the linear regression model with the CO2 emissions<0x0A>sns
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted values of the predictors of the seasonality of the clinical trial population by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper", font
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y='Pro
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_context("paper", font_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(1, 2, fig
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['temp'], df_temp['dtemp'])<0x0A>plt.x
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the total consumption of each fuel type<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:11<00:00,  1.67it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Plotting the index of the index of the index of the index of the index of the index of the index of the index of the index of
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>sns.set_context("paper", font_scale=2)<0x0A><0x0A>sns.set_palette
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of values in the dataframe<0x0A><0x0A># Create a new dataframe with the highest number of values in the dataframe<0x0A>high_income_high_income = pd.DataFrame
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported in
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df['Year'], df['new_businesses'], color
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 16 [32m[1m | Loss :[39m[22m 16.674837112426758
+[36m[1mEpoch :[39m[22m 17 [32m[1m | Loss :[39m[22m 16.965089797973633
+[36m[1mEpoch :[39m[22m 18 [32m[1m | Loss :[39m[22m 16.957015991210938
+[36m[1mEpoch :[39m[22m 19 [32m[1m | Loss :[39m[22m 16.854991912841797
+  5%|▌         | 1/20 [00:00<00:11,  1.64it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.64it/s]
+  5%|▌         | 1/20 [00:00<00:11,  1.61it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the barplot of the Consumer Price Index<0x0A>sns.set(font_scale=1.5)<0x0A>
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("muted")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.figure(figsize=(10,10))<0x0A><0x0A># Plot the linear regression model with the CO2 emissions<0x0A>sns
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y='Pro
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>sns.set_context("paper", font_scale
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['temp'], df_temp['dtemp'])<0x0A>plt.x
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the total consumption of each fuel type<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Plotting the index of the index of the index of the index of the index of the index of the index of the index of the index of
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>ax = sns.lineplot(x="Year
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of people in the OECD<0x0A><0x0A># Create a figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported in
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df_train
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 21 [32m[1m | Loss :[39m[22m 16.152576446533203
+[36m[1mEpoch :[39m[22m 22 [32m[1m | Loss :[39m[22m 16.475727081298828
+[36m[1mEpoch :[39m[22m 23 [32m[1m | Loss :[39m[22m 15.816211700439453
+[36m[1mEpoch :[39m[22m 24 [32m[1m | Loss :[39m[22m 15.446732521057129
+ 10%|█         | 2/20 [00:01<00:11,  1.63it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.64it/s]
+  5%|▌         | 1/20 [00:00<00:11,  1.63it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the barplot of the Consumer Price Index<0x0A>sns.set(font_scale=1.5)<0x0A>
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting the bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting the bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)<0x0A>plt.
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph<0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1.5)<0x0A>sns.set_palette("muted")<0x0A>sns.
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams['figure.figsize'] = (10,10)<0x0A><0x0A># Plot the linear regression model with the CO
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the Probability Density Function for Reaction Time (seconds)<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.relplot(x="Time", y="Probability Density Function for Reaction Time (seconds)", data
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity in clinical trial populations by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y='Pro
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df['Assessment of Healthcare Utilization Rates by Demographic Groups
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['temp'], df_temp['dtemp'])<0x0A>plt.x
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Plot Depth of credit information index of European Union<0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Depth of credit information index of European Union')<0x0A>plt.xlabel('Information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Plotting the index of the index of the index of the index of the index of the index of the index of the index of the index of
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>ax = sns.lineplot(x="Year
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of people in the OECD<0x0A><0x0A># Create a figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set(font_scale=2)<0x0A><0x0A>sns.set_
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>#Plotting the number of tuberculosis cases reported in
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>ax.scatter(df_train
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 26 [32m[1m | Loss :[39m[22m 15.787161827087402
+[36m[1mEpoch :[39m[22m 27 [32m[1m | Loss :[39m[22m 15.706623077392578
+[36m[1mEpoch :[39m[22m 28 [32m[1m | Loss :[39m[22m 15.97784423828125
+[36m[1mEpoch :[39m[22m 29 [32m[1m | Loss :[39m[22m 17.060012817382812
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.63it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the bar graph of the Consumer Price Index<0x0A>sns.set(font_scale=1.5)<0x0A>
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph of the smoking rate versus the simulation results of the variable interest interest rates on the bond prices<0x0A><0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams['figure.figsize'] = (10,10)<0x0A><0x0A># Plot the linear regression model with the CO
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the time series<0x0A><0x0A>sns.set(style="ticks")<0x0A>sns.set_context("talk")<0x0A>sns.set_context("talk")<0x0A><0x0A>sns.set_context("talk")<0x0A>
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity in clinical trial populations by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances between the two populations<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y='Pro
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df['Assessment of Healthcare Utilization Rates by Demographic Groups
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(df_temp['temp'], df_temp['dtemp'])<0x0A>plt.x
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Setting up the figure<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>ax = sns.lineplot(x="Year
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of people in the OECD<0x0A><0x0A># Create a figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the data<0x0A>sns.relplot(x
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>sns.scatterplot(x='Year
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>sns.scatterplot(x
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 31 [32m[1m | Loss :[39m[22m 16.05181884765625
+[36m[1mEpoch :[39m[22m 32 [32m[1m | Loss :[39m[22m 15.73727798461914
+[36m[1mEpoch :[39m[22m 33 [32m[1m | Loss :[39m[22m 16.537439346313477
+[36m[1mEpoch :[39m[22m 34 [32m[1m | Loss :[39m[22m 16.067943572998047
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+
+ 95%|█████████▌| 19/20 [00:11<00:00,  1.64it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the graph of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A><0x0A>#Plot the bar graph of the Consumer Price Index<0x0A>sns.set(font_scale=1.5)<0x0A>
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the Median Household Income Indexed By Regional Inflation Rates<0x0A><0x0A>sns.set(style="ticks")<0x0A>
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)<0x0A>plt.xticks(rotation=90)
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph of the smoking rate versus the simulation results of the variable interest interest rate on the bond prices<0x0A><0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the style of the plot<0x0A>sns.set_style("whitegrid")<0x0A><0x0A># Set the grid line<0x0A>sns.set_style("whitegrid")
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the time series<0x0A><0x0A>sns.set(style="ticks")<0x0A>sns.set_context("talk")<0x0A>sns.set_context("talk")<0x0A><0x0A>sns.set_context("talk")<0x0A>
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity in clinical trial populations by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set_context("paper
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances of the population in population survey<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plot the relationship between the variables<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.scatter(x=df['Assessment of Healthcare Utilization Rates by Demographic Groups
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(temp_df['temp_temp'],temp_df['temp_temp'])<0x0A>plt
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+100%|██████████| 20/20 [00:12<00:00,  1.66it/s]
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plot the percentage of full-time male workers in Cayman Islands<0x0A><0x0A># Set the figure size<0x0A>plt.rcParams["figure.figsize"] = (25, 25)<0x0A><0x0A># Plot the percentage of
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman is connected to global shipping networks<0x0A><0x0A># Setting up the figure<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Year", y="Total reserves (excluding gold)", data=total_
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plot the results of the search for the highest number of people in the OECD<0x0A><0x0A># Create a figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>#
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Country",
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the graph
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the data<0x0A>sns.relplot(x
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>sns.scatterplot(x='Year
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>sns.scatterplot(x
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 36 [32m[1m | Loss :[39m[22m 16.268680572509766
+[36m[1mEpoch :[39m[22m 37 [32m[1m | Loss :[39m[22m 15.661090850830078
+[36m[1mEpoch :[39m[22m 38 [32m[1m | Loss :[39m[22m 15.052458763122559
+[36m[1mEpoch :[39m[22m 39 [32m[1m | Loss :[39m[22m 15.813568115234375
+ 10%|█         | 2/20 [00:01<00:11,  1.63it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.67it/s]
+ 10%|█         | 2/20 [00:01<00:11,  1.58it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.lmplot(x='Mode Age', y='Alcohol Consumption', data=df, fit_reg=False, height=7, aspect=1
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the bar chart of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A>sns.set(font_scale=1.5)<0x0A>sns.set_context("poster", font_
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the Median Household Income Indexed By Regional Inflation Rates<0x0A><0x0A>sns.set(style="ticks")<0x0A>
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph of the smoking rate versus the simulation results of the variable interest interest rate on the bond prices<0x0A><0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the style of the plot<0x0A>sns.set_style("whitegrid")<0x0A><0x0A># Set the grid line<0x0A>sns.set_style("whitegrid")
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the time series<0x0A><0x0A>sns.set(style="ticks")<0x0A>sns.set(context="talk")<0x0A>sns.set_context("talk")<0x0A>sns.set_context("talk")<0x0A><0x0A>
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity in clinical trial populations by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set(style="white
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances of the population in population survey<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plotting the scatter plot of the data<0x0A><0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo_demo_groups['Risk'], alpha=0.5
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(temp_df['temp_temp'],temp_df['temp_temp'])<0x0A>plt
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.60it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting the percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>ax.barh(df_
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman and Oman is connected to global shipping networks<0x0A><0x0A># Setting up the figure<0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A>
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index, columns=['Year', 'Price'])<0x0A>import_price_index.plot(kind='line', title='Current value of
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Year", y="Total reserves (excluding gold)", data=total_
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plotting the duration given to resolve insolvency in High income_OECD<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Duration given to resolve insolvency in
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A>sns.set(style="whitegrid")<0x0A>g = sns.catplot(x="Country", y="
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the line graph of total imports in Malaysia from other
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>sns.scatterplot(x='Year
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(30, 30))<0x0A><0x0A>sns.scatterplot(x
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 41 [32m[1m | Loss :[39m[22m 15.989697456359863
+[36m[1mEpoch :[39m[22m 42 [32m[1m | Loss :[39m[22m 16.058408737182617
+[36m[1mEpoch :[39m[22m 43 [32m[1m | Loss :[39m[22m 14.76135540008545
+[36m[1mEpoch :[39m[22m 44 [32m[1m | Loss :[39m[22m 15.67683219909668
+  0%|          | 0/20 [00:00<?, ?it/s]
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.63it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m#scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.set(style="whitegrid")<0x0A>sns.lmplot(x="Mode Age", y="Alcohol Consumption", data=df, height=7,
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the bar chart of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A>sns.set(font_scale=1.5)<0x0A>sns.set_context("poster", font_
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the Median Household Income Indexed By Regional Inflation Rates<0x0A><0x0A>sns.set(style="ticks")<0x0A>
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph of the smoking rate versus the simulation results of the variable interest interest rate on the bond prices<0x0A><0x0A>sns.set_style("whitegrid")<0x0A>sns.set_context("paper", font_scale=1
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the style of the plot<0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set the grid line<0x0A>grid = sns.FacetGrid(data
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the time series<0x0A>sns.set(style="ticks")<0x0A>sns.set(context="talk")<0x0A>sns.set_context("talk")<0x0A>sns.set_context("talk")<0x0A>sns
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity in clinical trial populations by gender and age<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set(style="white
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances of the population in population survey<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plotting the scatter plot of the data<0x0A><0x0A>plt.scatter(x=df_demo_demo_groups['Risk'], y=df_demo_demo_groups['Risk'], alpha=0.5
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(temp_df['temp_temp'],temp_df['temp_temp'])<0x0A>plt
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.54it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries'
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting bar chart of percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>plt.figure(figsize=(40,40))<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman and Oman is connected to global shipping networks<0x0A><0x0A># Setting up the figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index)<0x0A>import_price_index.columns = ['Year', 'Price', 'Year']<0x0A>import_price_index
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Year", y="Total reserves (excluding gold)", data=total_
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plotting the duration given to resolve insolvency in High income_OECD<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Duration given to resolve insolvency in
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A>sns.set(style="whitegrid")<0x0A>g = sns.catplot(x="Country", y="
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A><0x0A>sns.set_style("darkgrid")<0x0A><0x0A>sns.set_context("poster", font_scale=1
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the line graph of total imports in Malaysia from other
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>sns.scatterplot(x='Year
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A><0x0A>fig, ax = plt.subplots(figsize=(25,25))<0x0A><0x0A>sns.scatterplot(x='
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[36m[1mEpoch :[39m[22m 46 [32m[1m | Loss :[39m[22m 15.570555686950684
+[36m[1mEpoch :[39m[22m 47 [32m[1m | Loss :[39m[22m 15.79652214050293
+[36m[1mEpoch :[39m[22m 48 [32m[1m | Loss :[39m[22m 14.562324523925781
+
+[36m[1mEpoch :[39m[22m 49 [32m[1m | Loss :[39m[22m 16.369314193725586
+  5%|▌         | 1/20 [00:00<00:12,  1.57it/s]
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.67it/s]
+  0%|          | 0/20 [00:00<?, ?it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m#scatter plot of Mode Age vs Alcohol Consumption<0x0A>sns.set(style="whitegrid")<0x0A>sns.lmplot(x="Mode Age", y="Alcohol Consumption", data=df, height=7,
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A>sns.set(style="ticks")<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>g = sns.catplot(x="Water_Usage", y="CO2
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m#Plot the bar chart of the Consumer Price Index<0x0A>sns.set(style="ticks")<0x0A>sns.set(font_scale=1.5)<0x0A>sns.set_context("poster", font_
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31m#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#plotting bar graph of participation rate by group<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>#
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the distribution of the bond yield<0x0A><0x0A>sns.set(style="ticks")<0x0A><0x0A># Plotting the Median Household Income Indexed By Regional Inflation Rates<0x0A><0x0A>sns.set(style="ticks")<0x0A>
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31msns.catplot(x="Cost", y="Quantile Regression Estimates Of Salary By Experience Level", kind="bar", data=df)
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31m# your turn<0x0A>sns.lmplot(x='Height', y='Speed', data=df, fit_reg=False, size=7, aspect=1.5)
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m# Log transformed peak demand during holiday seasons at retail stores<0x0A><0x0A>import_volume = df.loc[df['Season'] == 'Holiday']<0x0A><0x0A># Log transformed peak demand during holiday seasons at retail stores<0x0A>log_
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m# Plot the graph of the smoking rate versus the simulation results of the variable interest interest rate on the bond prices<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>sns.set_context("paper", font_scale=
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the linear regression model with the CO2 emissions<0x0A><0x0A># Set the style of the plot<0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set the grid line<0x0A>grid = sns.FacetGrid(data
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Plot the time series<0x0A>sns.set(style="ticks")<0x0A>sns.set(context="talk")<0x0A>sns.set_context("talk")<0x0A>sns.set_context("talk")<0x0A>sns
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31m# Scatter plot of the predicted accuracy of the seasonal demand forecasting models and heterogeneity of the clinical trial population<0x0A><0x0A>sns.set(style="whitegrid")<0x0A>sns.set(style="whitegrid")<0x0A>
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31m# Plot the distribution of the distances of the population in population survey<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>sns.lineplot(x='Distance', y
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31m# 1. <0x0A># 2. <0x0A># 3. <0x0A># 4. <0x0A># 5. <0x0A># 6. <0x0A># 7. <0x0A># 8. <0x0A>#
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>sns.set_
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31m# Plotting the scatter plot of the data<0x0A><0x0A>plt.scatter(x=df_demo_demo_groups, y=df_demo_demo_groups, alpha=0.5)<0x0A>plt.x
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31m# Plot the poverty rate and mortality rate<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, (ax1, ax2) = plt.subplots(
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31m# Plotting the results of the model<0x0A><0x0A>plt.figure(figsize=(10,10))<0x0A>plt.plot(temp_df['temp_temp'],temp_df['temp_temp'])<0x0A>plt
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31m# Plot the output of the model<0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A>ax.plot(df['Manufacturing Output'], df['Fuel Consumption'])
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot the scatterplot of literacy rate vs. eport volume for the 4000 students who were admitted to the hospital.<0x0A>sns.lmplot(x='Literacy Rate', y='Eport Volume'
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+
+
+
+
+
+
+100%|██████████| 20/20 [00:12<00:00,  1.65it/s]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mbar|quantitative|Number of passengers carried|nominal|Country
+[31m#Plotting the number of passengers carried by air carriers registered in different countries<0x0A><0x0A>plt.figure(figsize=(15,15))<0x0A>plt.title('Number of passengers carried by air carriers registered in different countries
+[32m[1mbar|quantitative|% of children under 5 taken to a health provider|temporal|Year
+[31m# Plotting bar chart of percentage of infants who were provided with ART treatment in Swaziland<0x0A><0x0A>plt.figure(figsize=(40,40))<0x0A><0x0A>sns.set_style("whitegrid")<0x0A><0x0A>
+[32m[1mbar|quantitative|Savings (current US$)|temporal|Year
+[31m# Plot adjusted net savings of Kazakhstan including particulate emission damage<0x0A><0x0A>plt.figure(figsize=(20,20))<0x0A>plt.barh(adjusted_net_savings.index, adjusted_net_
+[32m[1mbar|quantitative|Information index(0=low to 8=high)|temporal|Year
+[31m# Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information index of European Union<0x0A><0x0A># Depth of credit information
+[32m[1mbar|quantitative|Full-time male workers(% of males employed)|temporal|Year
+[31m# Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands<0x0A><0x0A># Plotting bar chart of full-time male workers in Cayman Islands
+[32m[1mline|temporal|Year|quantitative|Rating index(maximum value in 2004 = 100)
+[31m# Plotting the index of the index of the Oman and Oman is connected to global shipping networks<0x0A><0x0A># Setting up the figure and axes<0x0A>fig, ax = plt.subplots(figsize=(25,25
+[32m[1mline|temporal|Year|quantitative|Survival Rate(%)
+[31m# Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education<0x0A><0x0A># Survival rate of children of Jamaica upto Grade 5 of primary education
+[32m[1mline|temporal|Year|quantitative|Prive value of exports (constant LCU)
+[31mimport_price_index = pd.DataFrame(index=par_df.index)<0x0A>import_price_index.columns = ['Year', 'Price', 'Year']<0x0A>import_price_index
+[32m[1mline|temporal|Year|quantitative|Average number of days
+[31mplt.figure(figsize=(25,25))<0x0A>plt.title("Delay in obtaining an electrical connection in Latvia")<0x0A>plt.xlabel("Year")<0x0A>plt.ylabel("Change amount of days
+[32m[1mline|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (excluding gold) of Mexico<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A>g = sns.catplot(x="Year", y="Total reserves (excluding gold)", data=total_
+[32m[1mline|temporal|Year|quantitative|Number of registrations
+[31m# Plotting the number of new businesses registered in Argentina<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,20))<0x0A><0x0A># Plotting the number of new businesses registered in Argentina<0x0A><0x0A>
+[32m[1mline|temporal|Year|quantitative|Number of years
+[31m# Plotting the duration given to resolve insolvency in High income_OECD<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.title('Duration given to resolve insolvency in
+[32m[1mbar|nominal|Country|quantitative|% of repeaters
+[31m#Plotting the percentage of repeaters in secondary general education of countries in the year 2014<0x0A>sns.set(style="whitegrid")<0x0A>g = sns.catplot(x="Country", y="
+[32m[1mbar|nominal|Country|quantitative|Net GHG emissions or removals (Mt of CO2 equivalent)
+[31mfig = plt.figure(figsize=(25,20))<0x0A>ax = fig.add_subplot(111)<0x0A>ax = sns.barplot(x='Country', y='Net GHG
+[32m[1mbar|nominal|Country|quantitative|Earning from trade(% of GDP)
+[31m# Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting the bar graph of earnings of countries from merchandise trade in the year 1978<0x0A><0x0A># Plotting
+[32m[1mbar|nominal|Country|quantitative|Total Vulnerable employment (% of total employment)
+[31m# Percentage of employed workers in the year 2007 that are vulnerable to fall into poverty<0x0A>temp_df = pd.DataFrame(temp_df)<0x0A>temp_df.columns = ['Country', '
+[32m[1mcircle|temporal|Year|quantitative|Total reserves (current US$)
+[31m# Plot the total reserves (including gold) of Luxembourg<0x0A><0x0A>plt.figure(figsize=(25,25))<0x0A>plt.scatter(df_gold.Year, df_gold.Total_re
+[32m[1mcircle|temporal|Year|quantitative|Imports (% of GDP)
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A>%matplotlib inline<0x0A><0x0A>sns.set(style="whitegrid")<0x0A><0x0A># Plot the line graph of total imports in Malaysia from other
+[32m[1mcircle|temporal|Year|quantitative|Tuberculosis incidents (per 100,000 people)
+[31m#Plotting the number of tuberculosis cases reported in Virgin Islands<0x0A><0x0A>fig, ax = plt.subplots(figsize=(20,15))<0x0A><0x0A>sns.scatterplot(x='Year
+[32m[1mcircle|temporal|Year|quantitative|new registrations per 1,000 people ages 15-64
+[31m# Plot the results of the Density of new businesses in Namibia<0x0A>
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
