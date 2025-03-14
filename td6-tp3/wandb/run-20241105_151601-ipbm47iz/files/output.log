@@ -1,4 +1,0 @@
-Epoch: [1/10], Train loss: 2.2936
-Epoch: [1/10], Valid loss: 2.3086, Valid accuracy: 0.1400
-Saving the best model at 0 epochs!
-Epoch: [2/10], Train loss: 0.8395
