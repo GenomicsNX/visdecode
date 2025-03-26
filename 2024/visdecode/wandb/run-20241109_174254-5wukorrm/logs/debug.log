@@ -1,0 +1,35 @@
+2024-11-09 17:42:54,890 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Configure stats pid to 1224675
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Loading settings from /home/msinnona/.config/wandb/settings
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Loading settings from /mnt/disk2/msinnona/visdecode/visdecode/wandb/settings
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'visdecode/trainer.py', 'program_abspath': '/mnt/disk2/msinnona/visdecode/visdecode/trainer.py', 'program': '/mnt/disk2/msinnona/visdecode/visdecode/trainer.py'}
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/disk2/msinnona/visdecode/visdecode/wandb/run-20241109_174254-5wukorrm/logs/debug.log
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/disk2/msinnona/visdecode/visdecode/wandb/run-20241109_174254-5wukorrm/logs/debug-internal.log
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:init():566] calling init triggers
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 50, 'max_length': 200, 'batch_size': 16, 'comment': 'train set de 2k'}
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:init():616] starting backend
+2024-11-09 17:42:54,891 INFO    MainThread:1224675 [wandb_init.py:init():620] setting up manager
+2024-11-09 17:42:54,894 INFO    MainThread:1224675 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-09 17:42:54,895 INFO    MainThread:1224675 [wandb_init.py:init():628] backend started and connected
+2024-11-09 17:42:54,901 INFO    MainThread:1224675 [wandb_init.py:init():720] updated telemetry
+2024-11-09 17:42:54,907 INFO    MainThread:1224675 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-11-09 17:42:55,374 INFO    MainThread:1224675 [wandb_run.py:_on_init():2262] communicating current version
+2024-11-09 17:42:55,433 INFO    MainThread:1224675 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.18.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-11-09 17:42:55,433 INFO    MainThread:1224675 [wandb_init.py:init():804] starting run threads in backend
+2024-11-09 17:42:58,320 INFO    MainThread:1224675 [wandb_run.py:_console_start():2241] atexit reg
+2024-11-09 17:42:58,320 INFO    MainThread:1224675 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-11-09 17:42:58,320 INFO    MainThread:1224675 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-11-09 17:42:58,320 INFO    MainThread:1224675 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-11-09 17:42:58,321 INFO    MainThread:1224675 [wandb_init.py:init():847] run started, returning control to user process
+2024-11-09 22:29:38,824 INFO    MainThread:1224675 [wandb_run.py:_finish():1970] finishing run martinsinnona/visdecode/5wukorrm
+2024-11-09 22:29:38,824 INFO    MainThread:1224675 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-11-09 22:29:38,824 INFO    MainThread:1224675 [wandb_run.py:_restore():2193] restore
+2024-11-09 22:29:38,824 INFO    MainThread:1224675 [wandb_run.py:_restore():2199] restore done
+2024-11-09 22:29:49,984 INFO    MainThread:1224675 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-11-09 22:29:49,985 INFO    MainThread:1224675 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-11-09 22:29:49,992 INFO    MainThread:1224675 [wandb_run.py:_footer_sync_info():3825] logging synced files

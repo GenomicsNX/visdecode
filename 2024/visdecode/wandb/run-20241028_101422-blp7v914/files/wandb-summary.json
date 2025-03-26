@@ -1,0 +1,1 @@
+{"mark_type_val_1": 1.0, "x_type_val_1": 0.14, "y_type_val_1": 1.0, "x_name_val_1": 0.7, "y_name_val_1": 0.58, "mark_type_val_2": 1.0, "x_type_val_2": 0.5, "y_type_val_2": 1.0, "x_name_val_2": 1.0, "y_name_val_2": 1.0, "epoch": 48, "loss": 0.004429946653544903, "_timestamp": 1730143945.9608247, "_runtime": 22683.381477832794, "_step": 48, "_wandb": {"runtime": 23061}}

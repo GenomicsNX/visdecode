@@ -1,6 +1,3 @@
-
 *.png
-models/
-data/annotations.json
-visdecode/transformers
-2024/
+2024/data/annotations.json
+2024/visdecode/transformers

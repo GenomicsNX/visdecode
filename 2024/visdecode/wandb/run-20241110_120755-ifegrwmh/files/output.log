@@ -1,0 +1,100 @@
+
+[36m[1mEpoch :[39m[22m 0 [32m[1m | Loss :[39m[22m 4.915476322174072
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍      | 19/20 [00:37<00:02,  2.16s/it]
+[35m|[39m JSON to Vega conversion error rate: [31m100.0[39m [31m%[39m [35m|
+[[0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]]
+[35m[1m----------------------------------------------------- EVALUATION -------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[32m[1mcircle|quantitative|Mode Age|quantitative|Alcohol Consumption
+[31m# Plot the scatter plot for Mode Age and Alcohol Consumption<0x0A><0x0A>sns.set(style="ticks", color_codes=True)<0x0A><0x0A>g = sns.lmplot(x="Mode_Age", y="Alcohol_Consumption", data=haber_haber, fit_reg=False, height=7, aspect=1.5)<0x0A><0x0A>g.set(xticklabels=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+[32m[1mbar|nominal|Water Usage|quantitative|CO2 Emissions
+[31m# Plot the data<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 10))<0x0A><0x0A># Draw a nested barplot to show bills by day and time<0x0A>ax.bar(x=df['Water Usage'], height=df['CO2 Emissions'], color='#003366')<0x0A><0x0A># Set up the axes<0x0A>ax.set_ylim(0, 80000)<0x0A><0x0A># Set up the x-axis label<0x0A>ax.set_xlabel('Water Usage')<0x0A>ax.set_ylabel('CO2 Emissions')<0x0A><0x0A># Set up the margins<0x0A>ax.margins(0.05)<0x0A><0x0A># Save the figure<0x0A>plt.tight_layout()<0x0A><0x0A># Show the plot<0x0A>plt.show()
+[32m[1mbar|nominal|Consumer Price Index|quantitative|Kurtosis And Skewness Of Annual Corporate Profit Margins
+[31m# Create a bar chart<0x0A>sns.set(context="notebook", style="ticks",<0x0A>                     ylim=(0, 5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[32m[1mbar|nominal|Range|quantitative|Participation Rate
+[31mpartidos.bar(x='Range', y='Participation Rate', rot=90, color='#000000', figsize=(10,10))
+[32m[1mbar|nominal|Median Household Income Indexed By Regional Inflation Rates|quantitative|Bond Yield
+[31m# Plotting the graph<0x0A><0x0A># Compute the correlation coefficient<0x0A>corr = df.corr()<0x0A><0x0A># Generate a mask for the upper triangle<0x0A>mask = np.zeros_like(corr)<0x0A>mask[np.triu_indices_from(mask)] = True<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 10))<0x0A><0x0A># Generate a custom diverging colormap<0x0A>cmap = sns.diverging_palette(220, 10, as_cmap=True)<0x0A><0x0A># Draw the heatmap with the mask and correct aspect ratio<0x0A>sns.heatmap(corr, mask=mask, cmap=cmap, vmax=155, square=True, annot=True, fmt='d', cbar=False, ax=ax)
+[32m[1mbar|nominal|Cost|quantitative|Quantile Regression Estimates Of Salary By Experience Level
+[31mfig = plt.figure(figsize=(6,6))<0x0A>ax = fig.add_subplot(111)<0x0A><0x0A># Plot bar chart<0x0A>sns.barplot(x='Cost', y='Quantile Regression Estimates Of Salary By Experience Level', data=df, palette='deep')<0x0A><0x0A># Custom limits for the axes<0x0A>ax.set_xlim(0, 2000)<0x0A>ax.set_xticklabels(ax.get_xticklabels(), rotation=90)<0x0A><0x0A># Custom limits for the axes<0x0A>ax.set_ylim(0, 13)<0x0A><0x0A># Custom limits for the axes<0x0A>ax.set_ylim(0, 13)<0x0A><0x0A># Custom limits for the axes<0x0A>ax.set_xlim(0, 2000)<0x0A>ax.set_ylim(0, 13)<0x0A><0x0A>
+[32m[1mcircle|quantitative|Height|quantitative|Speed
+[31mheights = df.groupby('Height').mean()<0x0A>heights.plot(kind='scatter', x='Height', y='Speed', alpha=0.8, figsize=(10,10))<0x0A>plt.show()
+[32m[1mcircle|quantitative|Log Transformed Peak Demand During Holiday Seasons At Retail Stores|quantitative|Import Volume
+[31m%matplotlib inline<0x0A>import matplotlib.pyplot as plt<0x0A>import pandas as pd<0x0A>import numpy as np<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import csv<0x0A>import
+[32m[1mline|temporal|Smoking Rate|quantitative|Simulation Results Of Variable Interest Rates On Bond Prices
+[31m## Plotting<0x0A><0x0A>fig, ax = plt.subplots(figsize=(10,10))<0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A><0x0A>
+[32m[1mline|temporal|Adjusted R Squared For Linear Regression Model With Heteroscedasticity|quantitative|CO2 Emissions
+[31m# Plot the results of the linear regression model<0x0A><0x0A>ggplot(linear_regression_model, aes(x=adjusted_r_squared_linear_regression_model_with_heteroscedasticity, y=co2_emissions)) +<0x0A>    geom_line() +<0x0A>    labs(x="Adjusted R Squared For Linear Regression Model With Heteroscedasticity", y="CO2 Emissions") +<0x0A>    scale_y_continuous(limits=c(0,100))
+[32m[1mline|temporal|Time|quantitative|Probability Density Function for Reaction Time (seconds)
+[31m# Create a time series plot using the seaborn library<0x0A>seaborn.set(style="ticks")<0x0A><0x0A># Set up the axes<0x0A>fig, ax = plt.subplots(figsize=(10, 10))<0x0A><0x0A># Set up the axes<0x0A>ax.set_xlabel("Time")<0x0A>ax.set_ylabel("Probability Density Function for Reaction Time (seconds)")<0x0A><0x0A># Add a legend to the plot<0x0A>seaborn.despine(bottom=True, left=True)<0x0A><0x0A># Add a legend to the plot<0x0A>seaborn.despine(top=True)<0x0A><0x0A># Draw the line plot<0x0A>seaborn.despine(bottom=True, left=True)<0x0A><0x0A># Save the figure<0x0A>plt.savefig("seaborn-plots")<0x0A><0x0A># Show the plot<0x0A>plt.show()
+[32m[1mcircle|quantitative|Predictive Accuracy Of Seasonal Demand Forecasting Models|quantitative|Heterogeneity In Clinical Trial Populations By Gender And Age
+[31mheights = ggplot(results, aes(x=variable, y=variable)) +<0x0A>    geom_point() +<0x0A>    labs(x="Predictive Accuracy Of Seasonal Demand Forecasting Models", y="Hetetogeneity In Clinical Trial Populations By Gender And Age: Heterogeneity In Clinical Trials Populations By Gender And Age:") +<0x0A>    theme(axis.text.x = element_text(angle=90, hjust=1))
+[32m[1mline|temporal|Distance|quantitative|Probability Density Function Of Age Distribution In Population Survey
+[31mg = sns.relplot(x="Distance", y="Probability Density Density Function OYAg Distribution in Population Survey", data=df, kind="line", height=8, aspect=1.5)<0x0A>g.set(xlabel="Distance", ylabel="Probability Density Density Function OYAg Distribution in Population Survey")<0x0A>g.set(ylim=(0, 600))<0x0A>g.set(xlim=(1, 1870))
+[32m[1mcircle|quantitative|Growth Rate|quantitative|GDP
+[31mscatterplot = ggplot(data=df,aes(x='Growth Rate',y='GDP')) + geom_point() + theme_minimal()
+[32m[1mline|temporal|Mental Health|quantitative|Import Volume
+[31mimport matplotlib.pyplot as plt<0x0A>import seaborn as sns<0x0A><0x0A># Set up the matplotlib figure<0x0A>f, ax = plt.subplots(figsize=(10, 10))<0x0A><0x0A># Generate a line plot of {'Mental Health':'Import Volume', 'Import Volume': 'Import Volume'}<0x0A><0x0A># Set up the x-axis for the graph<0x0A>ax.spines['right'].set_visible(False)<0x0A>ax.spines['top'].set_visible(False)<0x0A><0x0A># Generate a bar plot of {'Mental Health':'Import Volume', 'Import Volume': 'Import Volume'}<0x0A>ax.bar(x=MentalHealth.MentalHealth.values, height=MentalHealth.ImportVolume.values, color='#000000')<0x0A><0x0A># Set up the axes<0x0A>
+[32m[1mcircle|quantitative|Assessment Of Healthcare Utilization Rates By Demographic Groups|quantitative|Relative Risk Assessment Of Health Outcomes In Demographic Studies
+[31moptions(repr.plot.height=5)<0x0A>ggplot(data=data,aes(x=Relative,y=Relative,color=Relative)) +<0x0A>    geom_point() +<0x0A>    geom_hline(yintercept=0,linetype=2,color="black") +<0x0A>    labs(x="Assessment Of Healthcare Utilization Rates By Demographic Groups",y="Relative Risk Assessment Of Health Outcomes In Demographic Studies")
+[32m[1mbar|nominal|Mortality Rate|quantitative|Poverty Rate
+[31mheights = [1000, 1000, 1000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 100
+[32m[1mline|temporal|Impact Of Temperature Variability On Crop Yield Statistics|quantitative|Detrended Analysis Of Yearly Weather Anomalies In Temperature Data
+[31mfig = plt.figure(figsize=(10,10))<0x0A>ax = fig.add_subplot(111)<0x0A><0x0A># Plot the mean temperature data<0x0A>ax.plot(temp_data.index, temp_data.mean_temp, lw=2)<0x0A>ax.set_xlabel('Impact Of Temperature Variability On Crop Yield Statistics')<0x0A>ax.set_ylabel('Dtended Analysis Of Yearly Weather Temperature Data')<0x0A><0x0A># Plot the mean temperature data<0x0A>temp_data.plot(ax=ax, kind='line', linewidth=0.5)<0x0A>ax.set_ylabel('Dtended Analysis Of Yearly Weather Temperature Data')<0x0A>ax.set_xlabel('Impact Of Temperature Variability On Crop Yield Statistics')<0x0A>ax.set_xlabel('Impact Of Temperature Variability On Crop Yield Statistics')
+[32m[1mline|temporal|Manufacturing Output|quantitative|Fuel Consumption
+[31mcutoffs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,500,52,52,53,54,57,58,59,500,51,500,52,59,500,500,500,
+[32m[1mcircle|quantitative|Literacy Rate|quantitative|Export Volume
+[31m# Plot scatter plot<0x0A>sns.set(context="notebook", style="ticks", color_codes=True)<0x0A><0x0A># Compute the summary statistics<0x0A>summary_statistics = summary_statistics.copy()<0x0A><0x0A># Plot summary statistics<0x0A>sns.relplot(x="Literacy Rate", y="Epoch Volume", data=summary_statistics, height=8, aspect=1.5, kind="scatter")<0x0A><0x0A># Add axis labels<0x0A>plt.xlabel("Literacy Rate")<0x0A>plt.ylabel("Epoch Volume")<0x0A>plt.show()
+[35m[1m------------------------------------------------------------------------------------------------------------------------
+[35m|[39m [36m[1mMARK-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-TYPE[39m[22m : 0 [35m|[39m [36m[1mY-TYPE[39m[22m : 0 [35m|[39m [36m[1mX-NAME[39m[22m : nan [35m|[39m [36m[1mY-NAME[39m[22m : nan [35m|[39m [36m[1mSTRUCT-ERROR[39m[22m : 1.0 [35m|
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:38<00:00,  1.94s/it]
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+
+
+ 32%|██████████████████████████████████████████▌                                                                                        | 13/40 [00:15<00:31,  1.18s/it]
+Traceback (most recent call last):
+  File "/mnt/disk2/msinnona/visdecode/visdecode/trainer.py", line 171, in <module>
+    metrics_val2 = eval_model(processor, model, dataset_val2, device, vega_structure = False)   # plotQA dataset validation
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/visdecode.py", line 324, in eval_model
+    texts = generate(processor, model, dataset[:]["image"], device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/visdecode.py", line 45, in generate
+    tokens = model.generate(flattened_patches = inputs.flattened_patches, attention_mask = inputs.attention_mask, max_length = MAX_LENGTH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/miniconda3/envs/martin/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/disk2/msinnona/visdecode/visdecode/transformers/generation/utils.py", line 2459, in greedy_search
+    next_tokens.tile(eos_token_id_tensor.shape[0], 1).ne(eos_token_id_tensor.unsqueeze(1)).prod(dim=0)
+KeyboardInterrupt
