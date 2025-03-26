@@ -1,0 +1,11 @@
+,original_image,mark_type,x_name,y_name,color,title,dataset_name
+2764,16600.png,hbar,Discrepancy in expenditure estimate of GDP (constant LCU),Country,#2E8B57,Discrepancy in expenditure estimate of GDP of differenct countries in 2007,PlotQA
+2722,16558.png,hbar,Success rate(as % of new cases),Year,#CD5C5C,Tuberculosis treatment success rate in Samoa,PlotQA
+5389,32976.png,vbar,Year,Unemployed females(% of female labor force ages 15-24),#7FFFD4,Unemployed female youth population of Morocco,PlotQA
+4443,32030.png,vbar,Country,Debt(current US$),#663399,Total undisbursed external debt of countries as per the survey of 1989,PlotQA
+3133,21386.png,line,Year,"Cost of computers, communications and other services (% of commerical service exports)",#00FF7F,Cost of communications and computers with respect to commercial service exports of Brunei Darussalam,PlotQA
+4209,31796.png,vbar,Country,Cereal Production (hectares),#6A5ACD,Land under cereal  production in different countries as per the survey of 1962,PlotQA
+5576,33163.png,vbar,Country,% of population,#0000FF,Number of people (in %) in different countries infected with HIV in the year 2007,PlotQA
+2350,16186.png,hbar,Proportion of dependents per 100 working-age population,Year,#EE82EE,Age dependency ratio in Uzbekistan,PlotQA
+2758,16594.png,hbar,Population in urban agglomerations (in %),Year,#006400,Population in urban agglomerations (of more than 1 million) of Greece,PlotQA
+263,4698.png,point,Year,Workers(% of females employed),#006400,Contributing female family workers in Spain,PlotQA

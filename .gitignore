@@ -1,3 +1,4 @@
 *.png
 2024/data/annotations.json
 2024/visdecode/transformers
+datasets/PlotQA/src/test/annotations.json

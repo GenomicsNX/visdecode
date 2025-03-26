@@ -1,0 +1,36 @@
+pred,gt
+"{
+'mark_type': 'line',
+'x_name': 'Country',
+'y_name': 'Estimated GDP per capita (constant 2005 US$)',
+'title': 'Estimated GDP per capita (constant 2005 US$)',
+'color': '#007bff'
+}","{'mark_type': 'hbar', 'x_name': 'Discrepancy in expenditure estimate of GDP (constant LCU)', 'y_name': 'Country', 'title': 'Discrepancy in expenditure estimate of GDP of differenct countries in 2007', 'color': '#2E8B57'}"
+"{
+'mark_type': 'vbar',
+'x_name': 'Year',
+'y_name': 'Treatment Success Rate in Samoa',
+'title': 'Treatment Success Rate in Samoa',
+'color': '#FF0000'
+}","{'mark_type': 'hbar', 'x_name': 'Success rate(as % of new cases)', 'y_name': 'Year', 'title': 'Tuberculosis treatment success rate in Samoa', 'color': '#CD5C5C'}"
+"{
+'mark_type': 'vbar',
+'x_name': 'Year',
+'y_name': 'Unemployed Female Youth Population (in thousands)',
+'title': 'Unemployed Female Youth Population of Morocco',
+'color': '#00BFFF'
+}","{'mark_type': 'vbar', 'x_name': 'Year', 'y_name': 'Unemployed females(% of female labor force ages 15-24)', 'title': 'Unemployed female youth population of Morocco', 'color': '#7FFFD4'}"
+"{
+'mark_type': 'vbar',
+'x_name': 'Country',
+'y_name': 'Total undisborded external debt as a percentage of GDP per the survey of 1999',
+'title': 'Total undisborded external debt as a percentage of GDP per the survey of 1999',
+'color': '#006699'
+}","{'mark_type': 'vbar', 'x_name': 'Country', 'y_name': 'Debt(current US$)', 'title': 'Total undisbursed external debt of countries as per the survey of 1989', 'color': '#663399'}"
+"{
+'mark_type': 'vbar',
+'x_name': 'Year',
+'y_name': 'Number of Communications',
+'title': 'Number of Communications with Registration and Complaints to the National Regulatory Authority',
+'color': '#007bff'
+}","{'mark_type': 'line', 'x_name': 'Year', 'y_name': 'Cost of computers, communications and other services (% of commerical service exports)', 'title': 'Cost of communications and computers with respect to commercial service exports of Brunei Darussalam', 'color': '#00FF7F'}"

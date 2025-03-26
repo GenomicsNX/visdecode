@@ -2,7 +2,7 @@ import numpy as np
 import Levenshtein
 
 VAR_TYPES_CLASSES = ["quantitative", "temporal", "nominal", "ordinal"]
-MARK_TYPE_CLASSES = ["bar", "line", "point", "pie"]
+MARK_TYPE_CLASSES = ["hbar", "vbar", "line", "point", "pie"]
 
 def dict_mean(dict):
 
