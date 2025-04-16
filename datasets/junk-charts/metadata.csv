@@ -1,0 +1,92 @@
+code,problem
+"
+import matplotlib.pyplot as plt
+
+years = [2000, 2005, 2010, 2015, 2020]
+population = [6.1, 6.5, 6.9, 7.3, 7.8]
+
+plt.figure(figsize=(4, 2))
+plt.plot(years, population, 'r--o', linewidth=5, markersize=15)
+plt.title('POPULATION', fontsize=25, color='green')
+plt.xlabel('Time', fontsize=5)
+plt.ylabel('People', fontsize=5)
+plt.xticks([2001, 2003, 2008])
+plt.grid(True, linestyle=':', color='purple')
+plt.legend(['Population'], loc='center left')
+plt.savefig('bad_plot.png')
+plt.show()
+","
+The title is in all caps and an unusual color, making it hard to read  
+Axis labels are too small to be legible  
+Y-axis label is vague and doesn't specify units  
+X-axis label is too generic and doesn't describe the data properly  
+X-ticks don't align with the actual data points, causing confusion  
+Line style and marker size are visually overwhelming  
+Figure size is too small, making all elements cramped  
+Grid lines use a distracting color and style  
+Legend placement overlaps with data and reduces readability  
+No units are provided for the population or years
+"
+"
+import matplotlib.pyplot as plt
+import numpy as np
+
+countries = ['USA', 'India', 'China', 'Brazil', 'Germany']
+gdp = [21.4, 2.9, 14.3, 1.8, 3.8]
+inflation = [2.3, 6.2, 2.4, 3.7, 1.4]
+
+x = np.arange(len(countries))
+
+plt.figure(figsize=(3, 6))
+plt.bar(x, gdp, color='cyan', label='GDP')
+plt.plot(x, inflation, color='black', label='Inflation')
+plt.xticks([0.5, 1.5, 2.5], ['North', 'South', 'East'])
+plt.yticks([])
+plt.title('ECONOMICS DATA!!!')
+plt.xlabel('Economies')
+plt.ylabel('Values')
+plt.legend(loc='lower right')
+plt.grid(True, linestyle='--')
+plt.savefig('bad_plot_2.png')
+plt.show()
+
+","
+The title is overly dramatic and unprofessional
+X-tick labels do not match the actual data (countries), making interpretation impossible
+Mixed chart types (bar and line) without proper axis separation or context
+Y-axis is not labeled with any units or scale, and has ticks removed
+Bars and lines are hard to distinguish due to color and overlapping
+Figure size is unbalanced and distorts proportions
+Legend is positioned far from relevant elements
+X-axis label is vague and doesn't describe the data precisely
+No clear indication of whether the data is in billions, percentages, etc.
+Color choice (cyan and black) is not visually effective for comparison
+"
+"
+import matplotlib.pyplot as plt
+
+temperatures = [22, 25, 27, 30, 33, 35, 36]
+days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+
+plt.figure(figsize=(10, 1))
+plt.plot(days, temperatures, marker='*', linestyle='-.', color='orange', linewidth=4)
+plt.title('Weather Report Temp vs Day vs Random', fontsize=20, color='pink')
+plt.xlabel('Weekdays!', fontsize=15)
+plt.ylabel('Hotness?', fontsize=15)
+plt.xticks(rotation=90)
+plt.grid(True, linestyle='-', color='gray', linewidth=2)
+plt.legend(['Temperature'], loc='upper center')
+plt.savefig('bad_plot_3.png')
+plt.show()
+","
+Figure size is extremely short and wide, making data hard to see
+Title is unclear and grammatically incorrect
+Y-axis label ""Hotness?"" is informal and ambiguous
+X-axis label ""Weekdays!"" is unprofessional and unnecessary
+Marker style and size are distracting
+Line is too thick for such simple data
+Color combination lacks contrast and clarity
+Legend is placed where it overlaps with the data
+X-axis tick labels are rotated unnecessarily
+No units are given for temperature
+"
